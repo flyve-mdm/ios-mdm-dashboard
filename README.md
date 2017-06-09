@@ -34,7 +34,7 @@ Flyve MDM Mobile Dashboard for iOS.
 
 ## Installation
 
-[<img src="https://user-images.githubusercontent.com/663460/26986739-23bffc6e-4d49-11e7-92a2-cdba1b517a08.png" alt="Download on the App Store" height="60">](https://play.google.com/store/apps/details?id=com.flyvemdm.dashboard)
+[<img src="https://user-images.githubusercontent.com/663460/26986739-23bffc6e-4d49-11e7-92a2-cdba1b517a08.png" alt="Download on the App Store" height="60">](https://itunes.apple.com/es/app/flyve-mdm-dashboard)
 
 ## Documentation
 
