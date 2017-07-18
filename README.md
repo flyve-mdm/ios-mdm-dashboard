@@ -1,15 +1,14 @@
-# Flyve MDM - Mobile Dashboard
+# Admin Dashboard for iOS
 
 ![Flyve MDM banner](https://user-images.githubusercontent.com/663460/26935464-54267e9c-4c6c-11e7-86df-8cfa6658133e.png)
 
-[![License](https://img.shields.io/github/license/flyve-mdm/flyve-mdm-ios-dashboard.svg?&label=License)](https://github.com/flyve-mdm/flyve-mdm-ios-dashboard/blob/master/LICENSE.md)
+[![License](https://img.shields.io/github/license/flyve-mdm/flyve-mdm-ios-admin-dashboard.svg?&label=License)](https://github.com/flyve-mdm/flyve-mdm-ios-admin-dashboard/blob/master/LICENSE.md)
 [![Follow twitter](https://img.shields.io/twitter/follow/FlyveMDM.svg?style=social&label=Twitter&style=flat-square)](https://twitter.com/FlyveMDM)
 [![Telegram Group](https://img.shields.io/badge/Telegram-Group-blue.svg)](https://t.me/flyvemdm)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
-[![GitHub release](https://img.shields.io/github/release/flyve-mdm/flyve-mdm-ios-dashboard.svg)](https://github.com/flyve-mdm/flyve-mdm-ios-dashboard/releases)
-[![Project Status: Concept – Minimal or no implementation has been done yet, or the repository is only intended to be a limited example, demo, or proof-of-concept.](http://www.repostatus.org/badges/latest/concept.svg)](http://www.repostatus.org/#concept)
+[![GitHub release](https://img.shields.io/github/release/flyve-mdm/flyve-mdm-ios-admin-dashboard.svg)](https://github.com/flyve-mdm/flyve-mdm-ios-admin-dashboard/releases)
 
-Flyve MDM is a mobile device management software that enables you to secure and manage all the mobile devices of your business or family via a web-based console.
+Flyve MDM is a Mobile device management software that enables you to secure and manage all the mobile devices of your business or family via a web-based console.
 
 To get started, check out <https://flyve-mdm.com/>!
 
@@ -19,31 +18,43 @@ To get started, check out <https://flyve-mdm.com/>!
 * [Build Status](#build-status)
 * [Installation](#installation)
 * [Documentation](#documentation)
-* [Contributors](#contributors)
+* [Contribute](#contribute)
+* [Contact](#contact)
 * [Copying](#copying)
 
 ## Synopsis
 
-Flyve MDM Mobile Dashboard for iOS.
+TBF
 
 ## Build Status
 
 | **Release channel** | **Beta channel** |
 |:---:|:---:|
-| [![Build Status](https://travis-ci.org/flyve-mdm/flyve-mdm-ios-dashboard.svg?branch=master)](https://travis-ci.org/flyve-mdm/flyve-mdm-ios-dashboard) | [![Build Status](https://travis-ci.org/flyve-mdm/flyve-mdm-ios-dashboard.svg?branch=develop)](https://travis-ci.org/flyve-mdm/flyve-mdm-ios-dashboard) |
+| [![Build Status](https://travis-ci.org/flyve-mdm/flyve-mdm-ios-admin-dashboard.svg?branch=master)](https://travis-ci.org/flyve-mdm/flyve-mdm-ios-admin-dashboard) | [![Build Status](https://travis-ci.org/flyve-mdm/flyve-mdm-ios-admin-dashboard.svg?branch=develop)](https://travis-ci.org/flyve-mdm/flyve-mdm-ios-admin-dashboard) |
 
 ## Installation
 
-[<img src="https://user-images.githubusercontent.com/663460/26986739-23bffc6e-4d49-11e7-92a2-cdba1b517a08.png" alt="Download on the App Store" height="60">](https://itunes.apple.com/es/app/flyve-mdm-dashboard)
+The Admin Dashboard for iOS is running on iOS 9.3 and higher.
+
+Download the latest IPA, from GitHub releases, TestFligh or Apple Store.
+
+[<img src="https://user-images.githubusercontent.com/663460/26986739-23bffc6e-4d49-11e7-92a2-cdba1b517a08.png" alt="Download from iTunes" height="60">](https://itunes.apple.com/us/app/flyve-mdm-admin-dashboard)
+[<img src="https://user-images.githubusercontent.com/663460/26973090-f8fdc986-4d14-11e7-995a-e7c5e79ed925.png" alt="Download IPA from GitHub" height="60">](https://github.com/flyve-mdm/flyve-mdm-ios-admin-dashboard/releases/latest)
 
 ## Documentation
 
-We share long-form content about the project in the [wiki](https://github.com/flyve-mdm/flyve-mdm-ios-dashboard/wiki).
+We share long-form content about the project in the [wiki](https://github.com/flyve-mdm/flyve-mdm-ios-admin-dashboard/wiki).
 
-## Contributors
+## Contact
 
-* [@hectorerb](https://github.com/hectorerb)
-* [@ajsb85](https://github.com/ajsb85)
+For notices about major changes and general discussion of Flyve MDM development, subscribe to the [/r/FlyveMDM](http://www.reddit.com/r/FlyveMDM) subreddit.
+You can also chat with us via IRC in [#flyve-mdm on freenode](http://webchat.freenode.net/?channels=flyve-mdm]).
+Ping me @hectorerb in the IRC chatroom if you get stuck.
+
+## Contribute
+
+Want to file a bug, contribute some code, or improve documentation? Excellent! Read up on our
+guidelines for [contributing](./CONTRIBUTING.md) and then check out one of our issues in the [Issues Dashboard](https://github.com/flyve-mdm/flyve-mdm-ios-admin-dashboard/issues).
 
 ## Copying
 
