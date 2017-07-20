@@ -188,7 +188,7 @@
 					0A67481B1F2123D6004B990D = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = H7XJV96LX2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					0A67482F1F2123D6004B990D = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -389,14 +389,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = H7XJV96LX2;
 				INFOPLIST_FILE = FlyveMDMAdminDashboard/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.flyve.admin.dashboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "bcc6328e-30a4-44ea-a7d7-4c87d09fcf99";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: org.flyve.admin.dashboard";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -406,14 +407,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = H7XJV96LX2;
 				INFOPLIST_FILE = FlyveMDMAdminDashboard/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.flyve.admin.dashboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "bcc6328e-30a4-44ea-a7d7-4c87d09fcf99";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: org.flyve.admin.dashboard";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
