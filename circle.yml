@@ -1,0 +1,6 @@
+machine:
+  xcode:
+    version: 8.3
+compile:
+  override:
+    - xcodebuild clean build -project FlyveMDMAdminDashboard.xcodeproj -scheme FlyveMDMAdminDashboard CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
