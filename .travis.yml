@@ -1,0 +1,31 @@
+language: objective-c
+osx_image: xcode8.3
+xcode_project: FlyveMDMAdminDashboard.xcodeproj
+xcode_scheme: FlyveMDMAdminDashboard
+before_install:
+- chmod a+x scripts/add-key.sh
+- chmod a+x scripts/run-build.sh
+- chmod a+x scripts/remove-key.sh
+- gem update --system
+- gem install fastlane --no-rdoc --no-ri --no-document --quiet
+install: true
+before_script:
+- "./scripts/add-key.sh"
+- echo FASTLANE_PASSWORD=$FASTLANE_PASSWORD >> .env
+script:
+- xcodebuild clean build -project FlyveMDMAdminDashboard.xcodeproj -scheme FlyveMDMAdminDashboard
+- "./scripts/run-build.sh"
+after_script:
+- "./scripts/remove-key.sh"
+notifications:
+  webhooks: https://fathomless-fjord-24024.herokuapp.com/notify
+env:
+  global:
+  - APPNAME="FlyveMDMAdminDashboard"
+  - PROFILE_UUID=XC_iOS_orgflyveadmindashboard
+  - KEYCHAIN_NAME="ios-app.keychain"
+  - SCRIPT_PATH=./scripts
+  - CERTIFICATES_PATH=./scripts/cert
+  - PROFILE_PATH=./scripts/profile
+  - secure: aPa0k5qvrdlnfVWVRFKCrFGlzRizFTXiVFiyxQa0ZcdqiN/sDDDa31UdumRs8J7ayznLgFE/yCQNmm3bGhbXmeuDmKMfhmoaGf6/ooX7P6yMfRbszR98+XJqaQzeDvYXpvbRacJKWd5AoAjCqvbdBa7m9p2623OzjcAHrckalAz6gZJRX9U69jIiE2tHX9/rUV72NgOjkq16MDLKmg/DIqerxzBRjLWOSIwO19OTR8/RTBzDXd7oziTxJSlwwgPgNNWfBXdCXtdkNjS1sYQfe5jiEE3wrQapdMs1rN7ObkBXDZVJgu0SDDlcXbVA6Dc7Die6FVzZ0JjxkBkJgTt6IQbsSDkpEIU67epsDP9563FBIWAAY9sFAO6SNzXdKgQMb/BxjfogDfH8BRzsWdteoM12k5vqLHbUeDZFYPUO2jU2o6X7K8vliStJOcKu6ZIFEPrJH2agCDcENn0Bm2m5xFtmL6/VCSXTv7sOWnFEvKv0lUvtIkoBBo80bVkhd6D/bjZC//gxjsK/HWJrLbGU5nEje6gSq0Dfxb/J2RIKXwGa/1vqPuHWBnybN3yXWfEoXvyjkoJTlss9tvTZt61urcpKHErU6V9f03ASTa5hq3yG+MYkPycNOq14xyRHI9xeFCAxIWuB46/FLyUiK1ckf4jAwD813ADRZgZhWhL3SI8=
+  - secure: QXC/a2f6Sfc8L/cN+tD+0YVBG0y3tuWKqcNHEfSItYdjTs4lWQHesYfYH1hfI+YXbz5Qs499Th+FKSGHz+sOybSgchu6Bl5W14toUrjemwpczjt2+Sy+UjjWeTe5Ln53iTXLltwGHcy3x5rc1wkPJaG+HHoVob0jWwJldXLDsvwrbR5QqpDfEpPnKv3bLCuojcOsfolQHHlFVDD2PXNkm5QAzFU+hQ2wepMDl25Eb0n0Tbv6D5k6mPXMnlHSH/RwCOZS47ukKDPRnbX2x7j49K3t1P0KYf/VGaAH7icw5a855uMcA+VN8V+NY8qkHcRbtPjiMeWU1qJhnizd+kihsGSmDJeFo5fAot3q4SkDWvrXoRt91k1G7mqiEHzyS2TRT8HtZZ0JAQdowzv96wq+MYcS9EJ2GFOyDDgIWkKbFS3aM5DX7fUj4h1ZJAkwGrDNe9TC8VUhOxZ85zxEUp/oKTvrZqVb9S/0jjf8olGG1n/4g4/TxtFjvYcqTJKlspilPSU6Oq2p/55m6Yus1QVTyr554uqa/jZo7M7GITer/H2nNHajYtIQbxSX+HhNF2ZdieJJxxo2DHV9P269iZ14zal+e83YJc1b161Ph5E8DiVsDDOM2bWBy1RvVmTAIQ9XsjUHIzoVI/npXfIIOoy2ylNvkTyV3+898qR9KZ3g10I=
