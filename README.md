@@ -30,7 +30,7 @@ TBF
 
 | **Release channel** | **Beta channel** |
 |:---:|:---:|
-| [![Build Status](https://travis-ci.org/flyve-mdm/flyve-mdm-ios-admin-dashboard.svg?branch=master)](https://travis-ci.org/flyve-mdm/flyve-mdm-ios-admin-dashboard) | [![Build Status](https://travis-ci.org/flyve-mdm/flyve-mdm-ios-admin-dashboard.svg?branch=develop)](https://travis-ci.org/flyve-mdm/flyve-mdm-ios-admin-dashboard) |
+| [![Build Status](https://circleci.com/gh/flyve-mdm/flyve-mdm-ios-admin-dashboard/tree/master.svg?style=svg)](https://circleci.com/gh/flyve-mdm/flyve-mdm-ios-admin-dashboard/tree/master) | [![Build Status](https://circleci.com/gh/flyve-mdm/flyve-mdm-ios-admin-dashboard/tree/develop.svg?style=svg)](https://circleci.com/gh/flyve-mdm/flyve-mdm-ios-admin-dashboard/tree/develop)
 
 ## Installation
 
