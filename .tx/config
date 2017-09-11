@@ -1,0 +1,9 @@
+[main]
+host = https://www.transifex.com
+
+[flyve-mdm-ios-admin-dashboard.localizablestrings-ios]
+file_filter = FlyveMDMAdminDashboard/<lang>.lproj/Localizable.strings
+lang_map = en_GB: Base, pt_BR: pt-BR, es_MX: es-MX, es_ES: es, fr_FR: fr, ru_RU: ru, ko_KR: ko
+source_file = FlyveMDMAdminDashboard/Base.lproj/Localizable.strings
+source_lang = en
+type = STRINGS
