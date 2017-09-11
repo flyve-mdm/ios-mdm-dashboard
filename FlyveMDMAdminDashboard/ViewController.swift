@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.loadView()
         
         view.backgroundColor = .white
-        navigationItem.title = "Admin Dashboard"
+        navigationItem.title = NSLocalizedString("title_admin", comment: "")
     }
 
     override func didReceiveMemoryWarning() {
