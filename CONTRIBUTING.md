@@ -56,7 +56,7 @@ We'll work very hard to fix all the issues without delay, but before fixing it w
 
 - Overview of the Issue - if an error is being thrown a description of the problem is extremely helpful
 - Motivation for or Use Case - explain why this is a bug for you
-- Inventory Agent Version(s)
+- Admin Dashboard Version(s)
 - Device Operating System & Model - is this a problem with all devices or only specific ones?
 - Reproduce the Error - provide a live example or an unambiguous set of steps.
 - Related Issues - has a similar issue been reported before?
