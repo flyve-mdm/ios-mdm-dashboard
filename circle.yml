@@ -8,7 +8,7 @@ machine:
     SCRIPT_PATH: ./ci
     CERTIFICATES_PATH: ./ci/cert
     PROFILE_PATH: ./ci/profile
-    GH_USER: flyve-mdm-bot
+    GH_USER: teclib-bot
     GH_REPO_SLUG: flyve-mdm/flyve-mdm-ios-admin-dashboard
     TRANSIFEX_USER: api
   xcode:
