@@ -9,7 +9,7 @@ machine:
     CERTIFICATES_PATH: ./ci/cert
     PROFILE_PATH: ./ci/profile
     GH_USER: teclib-bot
-    GH_REPO_SLUG: flyve-mdm/flyve-mdm-ios-admin-dashboard
+    GH_REPO_SLUG: flyve-mdm/ios-mdm-dashboard
     TRANSIFEX_USER: api
   xcode:
     version: 8.3
