@@ -1,7 +1,7 @@
 repository:
-  name: flyve-mdm-ios-admin-dashboard
+  name: ios-mdm-dashboard
   description: Flyve MDM Mobile Dashboard for iOS
-  homepage: http://flyve.org/flyve-mdm-ios-admin-dashboard/
+  homepage: http://flyve.org/ios-mdm-dashboard/
   topics: flyve-mdm, ios, admin-dashboard
   private: false
   has_issues: true
