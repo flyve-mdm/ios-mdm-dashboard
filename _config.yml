@@ -70,10 +70,10 @@ prose:
           element: "text"
           label: "Permalink"
           value: ""
-      - name: "wiki"
+      - name: "how-tos"
         field:
           element: "checkbox"
-          label: "wiki"
+          label: "how-tos"
           value: false
       - name: "published"
         field:
