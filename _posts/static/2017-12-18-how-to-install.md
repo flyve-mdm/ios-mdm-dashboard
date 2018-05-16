@@ -1,10 +1,11 @@
 ---
 layout: post
-how-tos: true
+howtos: true
 published: true
 title: Installation
 permalink: how-tos/installation
 description: Get it now
+category: user
 ---
 
 You can install the application by downloading it from the App Store

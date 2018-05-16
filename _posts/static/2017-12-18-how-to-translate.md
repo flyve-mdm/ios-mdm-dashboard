@@ -1,14 +1,17 @@
 ---
 layout: post
-how-tos: true
+howtos: true
 published: true
 title: Contribute Translating
-permalink: how-tos/contribute-translating
-description: We translate with Transifex
+permalink: howtos/contribute-translating
+description: We Translate with Transifex
+category: contributing
+date: 2017-12-17
 ---
+
 ### I know a lot of languages
 
-Great! You can help us translating the project. We are currently translating to Korean, Spanish, French, Portuguese, Russian and Japanese.
+Great! You can help us translating the project. We are currently translating to Korean, Spanish, French, Portuguese, Russian, Japanese and more.
 
 ### But wait, I'm an expert in a different language
 
@@ -18,7 +21,7 @@ If you are an expert in other language we are not currently translating, you can
 
 We use [Transifex](https://www.transifex.com/) to translate our projects. To start contributing with translations you require an account and request to join the team of Flyve MDM.
 
-After you are accepted you can now go to the Flyve MDM organization where you'll see all the projects listed to your left and a graphic with the statics of Source Strings translations.We use [Transifex](https://www.transifex.com/) to translate our projects
+After you are accepted you can now go to the [Flyve MDM organization](https://www.transifex.com/flyve-mdm/) where you'll see all the projects listed to your left and a graphic with the statics of Source Strings translations
 
 <img src="https://i.imgur.com/5GVBzbu.png" alt="All projects">
 

@@ -1,10 +1,11 @@
 ---
 layout: post
-how-tos: true
+howtos: true
 published: true
 title: How it works
 permalink: how-tos/how-it-works
 description: A brief introduction
+category: user
 ---
 
 The iOS MDM Dashboard allows you to manage your mobile fleet with the same features of our Web Dashboard but from the comfort of your iOS device.

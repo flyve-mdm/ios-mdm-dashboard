@@ -1,10 +1,12 @@
 ---
 layout: post
-how-tos: true
+howtos: true
 published: true
 title: Getting Started
 permalink: how-tos/getting-started
 description: Welcome to Flyve MDM
+category: user
+date: 2017-12-17
 ---
 
 # Dashboard
