@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  FlyveMDMAdminDashboard
 //
-//  Created by Hector Rondon on 20/07/17.
-//  Copyright © 2017 Teclib. All rights reserved.
+//  Created by Hector Rondon on 27/06/18.
+//  Copyright © 2018 Teclib. All rights reserved.
 //
 
 import UIKit
