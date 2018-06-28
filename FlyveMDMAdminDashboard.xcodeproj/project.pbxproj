@@ -13,6 +13,7 @@
 		0A02917C20E4363D00E4DF71 /* FlyveMDMAdminDashboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02917B20E4363D00E4DF71 /* FlyveMDMAdminDashboardTests.swift */; };
 		0A02918720E4363D00E4DF71 /* FlyveMDMAdminDashboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02918620E4363D00E4DF71 /* FlyveMDMAdminDashboardUITests.swift */; };
 		0A02919620E43EB100E4DF71 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A02919820E43EB100E4DF71 /* Localizable.strings */; };
+		0A75316820E5799000FC5ADE /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A75316720E5799000FC5ADE /* SnapshotHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		0A02919A20E43EEA00E4DF71 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0A02919B20E43F0100E4DF71 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0A02919D20E43F4E00E4DF71 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		0A75316720E5799000FC5ADE /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
 		0AA8643B20E532AE00B2BBBC /* ar-EG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-EG"; path = "ar-EG.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		0AA8643C20E532BE00B2BBBC /* ar-SA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-SA"; path = "ar-SA.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		0AA8643D20E532E000B2BBBC /* ca-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ca-ES"; path = "ca-ES.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				0A02918620E4363D00E4DF71 /* FlyveMDMAdminDashboardUITests.swift */,
+				0A75316720E5799000FC5ADE /* SnapshotHelper.swift */,
 				0A02918820E4363D00E4DF71 /* Info.plist */,
 			);
 			path = FlyveMDMAdminDashboardUITests;
@@ -318,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A02918720E4363D00E4DF71 /* FlyveMDMAdminDashboardUITests.swift in Sources */,
+				0A75316820E5799000FC5ADE /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
