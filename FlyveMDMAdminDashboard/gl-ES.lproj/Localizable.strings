@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  FlyveMDMAdminDashboard
+
+  Created by Hector Rondon on 27/06/18.
+  Copyright © 2018 Teclib. All rights reserved.
+*/
+
+"title_admin" = "Admin Dashboard";
