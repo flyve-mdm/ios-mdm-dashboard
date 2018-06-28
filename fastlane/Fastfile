@@ -11,7 +11,7 @@
 
 # This is the minimum version number required.
 # Update this, if you use features of a newer version
-fastlane_version "2.55.0"
+fastlane_version "2.98.0"
 
 default_platform :ios
 
@@ -19,14 +19,15 @@ platform :ios do
   $lane_active = ""
   before_all do
     # ENV["SLACK_URL"] = "https://hooks.slack.com/services/..."
+    skip_docs
   end
 
   desc "Runs all the tests"
   lane :test do
     $lane_active = "Test"
     scan(
-      project: "FlyveMDMAdminDashboard.xcodeproj",
-      scheme: "FlyveMDMAdminDashboard",
+      workspace: ENV["XCODE_WORKSPACE"],
+      scheme: ENV["XCODE_SCHEME"],
       clean: true,
       code_coverage: true
     )
@@ -34,15 +35,16 @@ platform :ios do
 
   desc "Run code coverage with xcov"
   lane :coverage do
+    $lane_active = "Coverage"
     xcov(
-      project: "FlyveMDMAdminDashboard.xcodeproj",
-      scheme: "FlyveMDMAdminDashboard",
+      workspace: ENV["XCODE_WORKSPACE"],
+      scheme: ENV["XCODE_SCHEME"],
       output_directory: "coverage",
+      html_report: false,
       json_report: true,
-      only_project_targets: true,
-      html_report: false
+      only_project_targets: true
     )
-    xcov_report
+    xcov_report    
   end
 
   desc "Submit a new Beta Build to Apple TestFlight"
@@ -52,18 +54,14 @@ platform :ios do
     # Fetch provisioning profile
     # sigh
     sigh(
-      adhoc: false, 
-      username: "hrondon@teclib.com",
-      team_id: "H7XJV96LX2",
-      provisioning_name: "XC iOS: org.flyve.admin.dashboard",
-      cert_id: "H7XJV96LX2"
+      adhoc: false
     )
   
     # Build
     gym(
-      scheme: "FlyveMDMAdminDashboard",
+      scheme: ENV["XCODE_SCHEME"],
       configuration: "Beta",
-      sdk: "iphoneos10.3",
+      sdk: "iphoneos11.2",
       clean: true,
       include_bitcode: true,
       include_symbols: true,
@@ -73,37 +71,40 @@ platform :ios do
 
     # TestFlight upload
     pilot(
-      app_identifier: "org.flyve.admin.dashboard",
+      app_identifier: ENV["APP_IDENTIFIER"],
       skip_waiting_for_build_processing: true
     )
   end
 
-  desc "Deploy a new version to the App Store"
-  lane :release do
-    $lane_active = "Release"
+  desc "builds and packages iOS apps"
+  lane :archive do
+    $lane_active = "Archive"
     # Fetch provisioning profile
     # sigh
     sigh(
-      adhoc: false, 
-      username: "hrondon@teclib.com",
-      team_id: "H7XJV96LX2",
-      provisioning_name: "XC iOS: org.flyve.admin.dashboard",
-      cert_id: "H7XJV96LX2"
+      adhoc: false
     )
-    snapshot
     # Build
     gym(
-      scheme: "FlyveMDMAdminDashboard",
+      scheme: ENV["XCODE_SCHEME"],
       configuration: "Release",
-      sdk: "iphoneos10.3",
+      sdk: "iphoneos11.2",
       clean: true,
       include_bitcode: true,
       include_symbols: true,
       export_method: "app-store",
       buildlog_path: 'fastlane/logs'
     )
-    deliver(force: true)
-    frameit
+  end
+
+  desc "publish new version in App Store"
+  lane :publish do
+    $lane_active = "Publish"
+    deliver(
+      force: true, 
+      skip_metadata: true,
+      ignore_language_directory_validation: true
+    )
   end
 
   after_all do |lane|
