@@ -2,77 +2,77 @@
   "warnings": [
     {
       "file": "/Users/distiller/project/FlyveMDMAdminDashboard/AppDelegate.swift",
-      "line": 12,
+      "line": 31,
       "symbol": "AppDelegate",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/distiller/project/FlyveMDMAdminDashboard/AppDelegate.swift",
-      "line": 14,
+      "line": 33,
       "symbol": "AppDelegate.window",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/distiller/project/FlyveMDMAdminDashboard/AppDelegate.swift",
-      "line": 17,
+      "line": 36,
       "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/distiller/project/FlyveMDMAdminDashboard/AppDelegate.swift",
-      "line": 26,
+      "line": 45,
       "symbol": "AppDelegate.applicationWillResignActive(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/distiller/project/FlyveMDMAdminDashboard/AppDelegate.swift",
-      "line": 31,
+      "line": 50,
       "symbol": "AppDelegate.applicationDidEnterBackground(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/distiller/project/FlyveMDMAdminDashboard/AppDelegate.swift",
-      "line": 36,
+      "line": 55,
       "symbol": "AppDelegate.applicationWillEnterForeground(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/distiller/project/FlyveMDMAdminDashboard/AppDelegate.swift",
-      "line": 40,
+      "line": 59,
       "symbol": "AppDelegate.applicationDidBecomeActive(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/distiller/project/FlyveMDMAdminDashboard/AppDelegate.swift",
-      "line": 44,
+      "line": 63,
       "symbol": "AppDelegate.applicationWillTerminate(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/distiller/project/FlyveMDMAdminDashboard/ViewController.swift",
-      "line": 11,
+      "line": 30,
       "symbol": "ViewController",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/distiller/project/FlyveMDMAdminDashboard/ViewController.swift",
-      "line": 13,
+      "line": 32,
       "symbol": "ViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/distiller/project/FlyveMDMAdminDashboard/ViewController.swift",
-      "line": 20,
+      "line": 39,
       "symbol": "ViewController.didReceiveMemoryWarning()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
