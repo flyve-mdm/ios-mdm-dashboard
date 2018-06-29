@@ -69,7 +69,7 @@ if [[ $GITHUB_COMMIT_MESSAGE != *"ci(release): generate CHANGELOG.md for version
     echo "Generate test report"
     # Create header content to test report
     echo "---" > header.html
-    echo "layout: page" >> header.html
+    echo "layout: modal" >> header.html
     echo "---" >> header.html
 
     # Add header to test report
