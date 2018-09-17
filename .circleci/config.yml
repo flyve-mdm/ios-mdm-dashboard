@@ -39,9 +39,41 @@ references:
       command: source ./ci/scripts/test.sh
   
   install: &install
-    - run:
+    run:
       name: Install dependencies
       command: source ./ci/scripts/install.sh
+  
+  keychain_add: &keychain_add
+    run:
+      name: Create keychain & Add certificates
+      command: source ./ci/scripts/keychain_add.sh
+      environment:
+        CERTIFICATES_PATH: ./ci/cert
+        KEYCHAIN_NAME: ios-app.keychain
+
+  git_config: &git_config
+    run:
+      name: Configure github
+      command: source ./ci/scripts/git_config.sh
+  
+  transifex: &transifex
+    run:
+      name: Configure Transifex
+      command: source ./ci/scripts/transifex.sh
+  
+  deploy_develop: &deploy_develop
+    run:
+      name: Generate changelog, docs, coverage and snapshots
+      command: source ./ci/scripts/deploy_develop.sh
+      environment:
+        SCRIPT_PATH: ./ci/scripts
+  
+  keychain_remove: &keychain_remove
+    run:
+      name: Remove keychain & certificates
+      command: source ./ci/scripts/keychain_remove.sh
+      environment:
+        KEYCHAIN_NAME: ios-app.keychain
 
 jobs:
 
@@ -62,47 +94,19 @@ jobs:
       - *test_app
 
   deploy_develop:
-    macos:
-      xcode: "9.2.0"
+    <<: *container_config
     steps:
       - checkout
-      - run:
-          name: Configure bundler
-          command: source ./ci/scripts/bundler_config.sh
-      - run:
-          name: Install dependencies
-          command: source ./ci/scripts/install.sh
-      - run:
-          name: Configure utf-8 locate
-          command: source ./ci/scripts/set_locate.sh
-      - run:
-          name: Configure Fastlane environment variables
-          command: source ./ci/scripts/fastlane_config.sh
-      - run:
-          name: Create keychain & Add certificates
-          command: source ./ci/scripts/keychain_add.sh
-          environment:
-            CERTIFICATES_PATH: ./ci/cert
-            KEYCHAIN_NAME: ios-app.keychain
-      - run:
-          name: Configure github
-          command: source ./ci/scripts/git_config.sh
-      - run:
-          name: Configure Transifex
-          command: source ./ci/scripts/transifex.sh
-      - run:
-          name: Build and Test project
-          command: source ./ci/scripts/test.sh 
-      - run:
-          name: Generate changelog, docs, coverage and snapshots
-          command: source ./ci/scripts/deploy_develop.sh
-          environment:
-            SCRIPT_PATH: ./ci/scripts
-      - run:
-          name: Remove keychain & certificates
-          command: source ./ci/scripts/keychain_remove.sh
-          environment:
-            KEYCHAIN_NAME: ios-app.keychain
+      - *bundler_config
+      - *install
+      - *set_locate
+      - *fastlane_config
+      - *keychain_add
+      - *git_config
+      - *transifex
+      - *test_app
+      - *deploy_develop
+      - *keychain_remove
   
   deploy_master:
     macos:
