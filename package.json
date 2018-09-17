@@ -4,7 +4,7 @@
   "description": "Admin Dashboard for iOS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "yarn standard-version"
   },
   "repository": {
     "type": "git",
