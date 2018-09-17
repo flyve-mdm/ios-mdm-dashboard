@@ -1,13 +1,25 @@
 version: 2
-jobs:
-  build:
+
+references:
+
+  xcode_version: &xcode_version  "9.2.0"
+
+  container_config: &container_config
     macos:
-      xcode: "9.2.0"
+      xcode: *xcode_version
+  
+  build_app: &build_app
+    run:
+      name: Build app
+      command: source ci/scripts/build.sh
+
+jobs:
+
+  build:
+    <<: *container_config
     steps:
       - checkout
-      - run:
-          name: Build and Test project
-          command: source ./ci/scripts/build.sh
+      - *build_app
 
   test:
     macos:
