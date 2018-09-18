@@ -138,6 +138,7 @@ jobs:
       - *set_locate
       - *fastlane_config
       - *git_config
+      - *test_app
       - *create_coverage
 
   deploy_develop:
