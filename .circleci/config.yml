@@ -92,6 +92,14 @@ references:
       command: source ci/scripts/documentation.sh
       environment:
         DOCUMENTATION_DESTINATION: development/code-documentation/
+  
+  create_coverage: &create_coverage
+    run:
+      name: Generate coverage
+      command: source ci/scripts/coverage.sh
+      environment:
+        COVERAGE_DESTINATION: development/coverage/
+        TEST_REPORT_DESTINATION: development/test-reports/
 
 jobs:
 
@@ -120,6 +128,17 @@ jobs:
       - *set_locate
       - *git_config
       - *create_documentation
+
+  coverage:
+    <<: *container_config
+    steps:
+      - checkout
+      - *bundler_config
+      - *install
+      - *set_locate
+      - *fastlane_config
+      - *git_config
+      - *create_coverage
 
   deploy_develop:
     <<: *container_config
@@ -161,6 +180,14 @@ workflows:
           requires:
             - build
       - documentation:
+          requires:
+            - test
+          filters:
+            branches:
+              only:
+                - master
+                - develop
+      - coverage:
           requires:
             - test
           filters:
