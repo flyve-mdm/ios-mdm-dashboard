@@ -197,21 +197,6 @@ jobs:
       - *git_config
       - *transifex
       - *beta_version
-
-  deploy_develop:
-    <<: *container_config
-    steps:
-      - checkout
-      - *bundler_config
-      - *install
-      - *set_locate
-      - *fastlane_config
-      - *keychain_add
-      - *git_config
-      - *transifex
-      - *test_app
-      - *deploy_develop
-      - *keychain_remove
   
   deploy_master:
     <<: *container_config
