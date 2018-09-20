@@ -182,6 +182,7 @@ jobs:
       - *set_locate
       - *fastlane_config
       - *git_config
+      - *transifex
       - *create_screenshots
 
   test_fligth:
@@ -192,7 +193,9 @@ jobs:
       - *install
       - *set_locate
       - *fastlane_config
+      - *keychain_add
       - *git_config
+      - *transifex
       - *beta_version
 
   deploy_develop:
