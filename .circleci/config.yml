@@ -101,6 +101,13 @@ references:
         COVERAGE_DESTINATION: development/coverage/
         TEST_REPORT_DESTINATION: development/test-reports/
 
+  create_screenshots: &create_screenshots
+    run:
+      name: Generate screenshots
+      command: source ci/scripts/screenshots.sh
+      environment:
+        SCREENSHOTS_DESTINATION: screenshots
+
 jobs:
 
   build:
@@ -140,6 +147,17 @@ jobs:
       - *git_config
       - *test_app
       - *create_coverage
+
+  screenshots:
+    <<: *container_config
+    steps:
+      - checkout
+      - *bundler_config
+      - *install
+      - *set_locate
+      - *fastlane_config
+      - *git_config
+      - *create_screenshots
 
   deploy_develop:
     <<: *container_config
@@ -196,3 +214,10 @@ workflows:
               only:
                 - master
                 - develop
+      - screenshots:
+          requires:
+            - test
+          filters:
+            branches:
+              only:
+                - master
