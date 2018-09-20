@@ -108,6 +108,31 @@ references:
       environment:
         SCREENSHOTS_DESTINATION: screenshots
 
+  update_cache: &update_cache
+    run:
+      name: Update cache gh-pages
+      command: source ci/scripts/update_cache.sh
+
+  beta_version: &beta_version
+    run:
+      name: Send app to TestFligth
+      command: source ci/scripts/beta_version.sh
+  
+  release_app: &release_app
+    run:
+      name: Release app
+      command: source ci/scripts/release.sh
+  
+  publish_app: &publish_app
+    run:
+      name: Publish app
+      command: source ci/scripts/publish_app.sh
+  
+  update_cache: &update_cache
+    run:
+      name: Update cache
+      command: source ci/scripts/update_cache.sh
+
 jobs:
 
   build:
@@ -159,6 +184,17 @@ jobs:
       - *git_config
       - *create_screenshots
 
+  test_fligth:
+    <<: *container_config
+    steps:
+      - checkout
+      - *bundler_config
+      - *install
+      - *set_locate
+      - *fastlane_config
+      - *git_config
+      - *beta_version
+
   deploy_develop:
     <<: *container_config
     steps:
@@ -189,6 +225,16 @@ jobs:
       - *deploy_master
       - *store_ipa
       - *keychain_remove
+
+  update_cache:
+    <<: *container_config
+    steps:
+      - checkout
+      - *bundler_config
+      - *install
+      - *set_locate
+      - *git_config
+      - *update_cache
 
 workflows:
   version: 2
@@ -221,3 +267,29 @@ workflows:
             branches:
               only:
                 - master
+      - test_fligth:
+          requires:
+            - test
+          filters:
+            branches:
+              only:
+                - develop
+      - release:
+          requires:
+            - screenshots
+            - coverage
+            - documentation
+          filters:
+            branches:
+              only:
+                - master
+      - update_cache:
+          requires:
+            - screenshots
+            - coverage
+            - documentation
+          filters:
+            branches:
+              only:
+                - master
+                - develop
