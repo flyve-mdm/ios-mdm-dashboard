@@ -132,6 +132,11 @@ references:
     run:
       name: Update cache
       command: source ci/scripts/update_cache.sh
+  
+  update_develop: &update_develop
+    run:
+      name: Update develop branch
+      command: source ci/scripts/update_develop.sh
 
 jobs:
 
@@ -211,6 +216,7 @@ jobs:
       - *transifex
       - *release_app
       - *publish_app
+      - *update_develop
 
   update_cache:
     <<: *container_config
