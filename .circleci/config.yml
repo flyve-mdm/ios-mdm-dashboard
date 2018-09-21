@@ -117,6 +117,8 @@ references:
     run:
       name: Send app to TestFligth
       command: source ci/scripts/beta_version.sh
+      environment:
+        SCRIPT_PATH: ci/scripts
   
   release_app: &release_app
     run:
@@ -127,6 +129,8 @@ references:
     run:
       name: Publish app
       command: source ci/scripts/publish_app.sh
+      environment:
+        SCRIPT_PATH: ci/scripts
   
   update_cache: &update_cache
     run:

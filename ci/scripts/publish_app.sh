@@ -7,4 +7,4 @@ if [[ $GITHUB_COMMIT_MESSAGE != *"ci(release): generate CHANGELOG.md for version
     # Send app to App Store with fastlane 
     bundle exec fastlane publish
 
-if
+fi
