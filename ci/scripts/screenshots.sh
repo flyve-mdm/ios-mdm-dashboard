@@ -25,56 +25,60 @@
 # @link      https://flyve-mdm.com
 # ------------------------------------------------------------------------------
 
-if [[ $CIRCLE_BRANCH == "develop" ]]; then
+if [[ $GITHUB_COMMIT_MESSAGE != *"ci(release): generate CHANGELOG.md for version"* && $GITHUB_COMMIT_MESSAGE != *"ci(build): release version"* ]]; then
 
-  # Get old version number from package.json
-  export GIT_OLD_TAG=$(jq -r ".version" package.json)
-  # Generate CHANGELOG.md and increment version
-  IS_PRERELEASE="$( cut -d '-' -f 2 <<< "$GIT_OLD_TAG" )";
+  if [[ $CIRCLE_BRANCH == "develop" ]]; then
 
-  if [[ $GIT_OLD_TAG != "$IS_PRERELEASE" ]]; then
+    # Get old version number from package.json
+    export GIT_OLD_TAG=$(jq -r ".version" package.json)
+    # Generate CHANGELOG.md and increment version
+    IS_PRERELEASE="$( cut -d '-' -f 2 <<< "$GIT_OLD_TAG" )";
 
-    PREFIX_PRERELEASE="$( cut -d '.' -f 1 <<< "$IS_PRERELEASE" )";
-    yarn release -t '' --skip.tag=true -m "ci(release): generate CHANGELOG.md for version %s" --prerelease "$PREFIX_PRERELEASE"
+    if [[ $GIT_OLD_TAG != "$IS_PRERELEASE" ]]; then
 
-  else
+      PREFIX_PRERELEASE="$( cut -d '.' -f 1 <<< "$IS_PRERELEASE" )";
+      yarn release -t '' --skip.tag=true -m "ci(release): generate CHANGELOG.md for version %s" --prerelease "$PREFIX_PRERELEASE"
 
-    yarn release -t '' --skip.tag=true -m "ci(release): generate CHANGELOG.md for version %s"
+    else
+
+      yarn release -t '' --skip.tag=true -m "ci(release): generate CHANGELOG.md for version %s"
+
+    fi
 
   fi
 
+  # Get version number from package.json
+  export GIT_TAG=$(jq -r ".version" package.json)
+  # Update CFBundleShortVersionString
+  /usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString ${GIT_TAG}" ${PWD}/${APPNAME}/Info.plist
+  # Update CFBundleVersion
+  /usr/libexec/PlistBuddy -c "Set :CFBundleVersion $CIRCLE_BUILD_NUM" ${PWD}/${APPNAME}/Info.plist
+  # Add modified and delete files
+  git add ${APPNAME}/Info.plist
+  git commit --amend --no-edit
+  echo "Generate screenshots"
+  # Generate screenshots
+  bundle exec fastlane snapshot
+
+  mv fastlane/screenshots/ screenshots/
+
+  # Create header content to screenshots
+  echo "---" > header.html
+  echo "layout: container" >> header.html
+  echo "namePage: screenshots" >> header.html
+  echo "---" >> header.html
+
+  # Add header to CHANGELOG.md
+  (cat header.html ; cat screenshots/screenshots.html) > screenshots/index.html
+  # Remove CHANGELOG_COPY.md
+  rm screenshots/screenshots.html
+  rm header.html
+
+  # Add screenshots folder
+  git add screenshots -f
+  # Create commit, NOTICE: this commit is not sent
+  git commit -m "ci(snapshot): generate **snapshot** for version ${GIT_TAG}"
+  # Update coverage on gh-pages branch
+  yarn gh-pages --dist screenshots --dest "${SCREENSHOTS_DESTINATION}" -m "ci(snapshot): generate screenshots for version ${GIT_TAG}"
+
 fi
-
-# Get version number from package.json
-export GIT_TAG=$(jq -r ".version" package.json)
-# Update CFBundleShortVersionString
-/usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString ${GIT_TAG}" ${PWD}/${APPNAME}/Info.plist
-# Update CFBundleVersion
-/usr/libexec/PlistBuddy -c "Set :CFBundleVersion $CIRCLE_BUILD_NUM" ${PWD}/${APPNAME}/Info.plist
-# Add modified and delete files
-git add ${APPNAME}/Info.plist
-git commit --amend --no-edit
-echo "Generate screenshots"
-# Generate screenshots
-bundle exec fastlane snapshot
-
-mv fastlane/screenshots/ screenshots/
-
-# Create header content to screenshots
-echo "---" > header.html
-echo "layout: container" >> header.html
-echo "namePage: screenshots" >> header.html
-echo "---" >> header.html
-
-# Add header to CHANGELOG.md
-(cat header.html ; cat screenshots/screenshots.html) > screenshots/index.html
-# Remove CHANGELOG_COPY.md
-rm screenshots/screenshots.html
-rm header.html
-
-# Add screenshots folder
-git add screenshots -f
-# Create commit, NOTICE: this commit is not sent
-git commit -m "ci(snapshot): generate **snapshot** for version ${GIT_TAG}"
-# Update coverage on gh-pages branch
-yarn gh-pages --dist screenshots --dest "${SCREENSHOTS_DESTINATION}" -m "ci(snapshot): generate screenshots for version ${GIT_TAG}"
