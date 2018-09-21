@@ -67,4 +67,12 @@ if [[ $GITHUB_COMMIT_MESSAGE != *"ci(release): generate CHANGELOG.md for version
   --tag "${GIT_TAG}" \
   --name "${APPNAME}.ipa" \
   --file "${APPNAME}.ipa"
+
+    # Update master branch
+    git fetch origin master
+    git checkout master
+    git clean -d -x -f
+    git merge $CIRCLE_BRANCH
+    git push origin master
+
 fi
