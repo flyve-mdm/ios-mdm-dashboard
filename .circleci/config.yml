@@ -99,7 +99,7 @@ references:
       command: source ci/scripts/coverage.sh
       environment:
         COVERAGE_DESTINATION: development/coverage/
-        TEST_REPORT_DESTINATION: development/test-reports/
+        TEST_REPORT_DESTINATION: development/test-report/
 
   create_screenshots: &create_screenshots
     run:
