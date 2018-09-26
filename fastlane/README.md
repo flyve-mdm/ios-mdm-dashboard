@@ -1,22 +1,18 @@
-# Fastlane
+fastlane documentation
+================
+# Installation
 
-Fastlane is a tool in ruby to release your iOS and Android app.
+Make sure you have the latest version of the Xcode command line tools installed:
 
-More info:
-https://fastlane.tools/
+```
+xcode-select --install
+```
 
-In this iOS project we used to:
-
-- Run Test
-- Generate code coverage
-- Generate snapshots
-- Deploy to TestFlight beta version
-- Deploy to App Store release
-- Send message to telegram with success or fail
-
-### How to use 
-
-In Appfile is the configuration with package name and json key file
+Install _fastlane_ using
+```
+[sudo] gem install fastlane -NV
+```
+or alternatively using `brew cask install fastlane`
 
 # Available Actions
 ## iOS
@@ -37,17 +33,19 @@ fastlane ios beta
 Submit a new Beta Build to Apple TestFlight
 
 This will also make sure the profile is up to date
-### ios release
+### ios archive
 ```
-fastlane ios release
+fastlane ios archive
 ```
-Deploy a new version to the App Store
-
-### In the folder actions we add custom actions
-
-- To send message to telegram
+builds and packages iOS apps
+### ios publish
+```
+fastlane ios publish
+```
+publish new version in App Store
 
 ----
 
+This README.md is auto-generated and will be re-generated every time [fastlane](https://fastlane.tools) is run.
 More information about fastlane can be found on [fastlane.tools](https://fastlane.tools).
 The documentation of fastlane can be found on [docs.fastlane.tools](https://docs.fastlane.tools).
