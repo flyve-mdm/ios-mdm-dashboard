@@ -78,6 +78,8 @@ On this project we use the following environment variables:
   - $GITHUB_USER   -> GitHub User
   - $GITHUB_TOKEN  -> GitHub Token
 - keychain_add, keychain_remove
+  - DIST_CER_ENC       -> Certificate distribution .cer
+  - DIST_P12_ENC       -> Certificate distribution .p12
   - KEYCHAIN_PASSWORD  -> Password for the keychain, required to sign the app
   - KEYCHAIN_NAME      -> Name of the keychain, required to sign the app
 - transifex
