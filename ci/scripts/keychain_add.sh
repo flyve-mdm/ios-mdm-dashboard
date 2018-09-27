@@ -29,8 +29,10 @@
 
 echo ----------------- Decrypt custom keychain ------------------
 # Decrypt custom keychain
-openssl aes-256-cbc -k "$KEYCHAIN_PASSWORD" -in $DIST_CER_ENC -d -a -out $CERTIFICATES_PATH/dist.cer
-openssl aes-256-cbc -k "$KEYCHAIN_PASSWORD" -in $DIST_P12_ENC -d -a -out $CERTIFICATES_PATH/dist.p12
+echo "$DIST_CER_ENC" | base64 -D > $CERTIFICATES_PATH/dist.cer.enc
+echo "$DIST_P12_ENC" | base64 -D > $CERTIFICATES_PATH/dist.p12.enc
+openssl aes-256-cbc -k "$KEYCHAIN_PASSWORD" -in $CERTIFICATES_PATH/dist.cer.enc -d -a -out $CERTIFICATES_PATH/dist.cer
+openssl aes-256-cbc -k "$KEYCHAIN_PASSWORD" -in $CERTIFICATES_PATH/dist.p12.enc -d -a -out $CERTIFICATES_PATH/dist.p12
 echo -------------Create the keychain with a password -----------
 # Create the keychain with a password
 security create-keychain -p $KEYCHAIN_PASSWORD $KEYCHAIN_NAME
