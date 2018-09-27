@@ -21,7 +21,6 @@ Here is placed files and bash script required to build, test and deploy the app 
 
 - Configure bundler (scripts/bundler_config.sh)
 - Configure Ruby dependencies (scripts/install_ruby.sh)
-- Configure utf-8 locale (scripts/set_locate.sh)
 - Configure fastlane environment variables (scripts/fastlane_config.sh)
 - Run Build on feature branch or run test on develop or master branch (scripts/test.sh)
 
@@ -30,7 +29,6 @@ Here is placed files and bash script required to build, test and deploy the app 
 - Configure bundler (scripts/bundler_config.sh)
 - Install dependencies for deploy (scripts/install.sh)
 - Generate new tag with standard-version (scripts/deploy_develop.sh)
-- Configure utf-8 locale (scripts/set_locate.sh)
 - Configure fastlane environment variables (scripts/fastlane_config.sh)
 - Create keychain (scripts/keychain_add.sh)
 - Global configuration git (scripts/git_config.sh)
@@ -47,7 +45,6 @@ Here is placed files and bash script required to build, test and deploy the app 
 - Configure bundler (scripts/bundler_config.sh)
 - Install dependencies for deploy (scripts/install.sh)
 - Generate new tag with standard-version (scripts/deploy_develop.sh)
-- Configure utf-8 locale (scripts/set_locate.sh)
 - Configure fastlane environment variables (scripts/fastlane_config.sh)
 - Create keychain (scripts/keychain_add.sh)
 - Global configuration git (scripts/git_config.sh)
@@ -74,6 +71,8 @@ On this project we use the following environment variables:
   - XCODE_SCHEME       -> Set the Scheme for the Inventory Agent
   - XCODE_SCHEME_UI    -> Set the Scheme for the UI
   - XCODE_WORKSPACE    -> Define the workspace of the project
+  - LANG               -> set to a UTF-8 locale
+  - LC_ALL             -> set to a UTF-8 locale
 - git_config, deploy_master
   - $GITHUB_EMAIL  -> GitHub Email
   - $GITHUB_USER   -> GitHub User

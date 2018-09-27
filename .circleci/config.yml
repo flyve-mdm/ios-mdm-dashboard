@@ -23,11 +23,6 @@ references:
       name: Configure Ruby dependencies
       command: source ./ci/scripts/install_ruby.sh
 
-  set_locate: &set_locate
-    run:
-      name: Configure utf-8 locate
-      command: source ./ci/scripts/set_locate.sh
-
   fastlane_config: &fastlane_config
     run:
       name: Configure Fastlane environment variables
@@ -156,7 +151,6 @@ jobs:
       - checkout
       - *bundler_config
       - *install_ruby
-      - *set_locate
       - *fastlane_config
       - *test_app
   
@@ -166,7 +160,6 @@ jobs:
       - checkout
       - *bundler_config
       - *install
-      - *set_locate
       - *git_config
       - *create_documentation
 
@@ -176,7 +169,6 @@ jobs:
       - checkout
       - *bundler_config
       - *install
-      - *set_locate
       - *fastlane_config
       - *git_config
       - *test_app
@@ -188,7 +180,6 @@ jobs:
       - checkout
       - *bundler_config
       - *install
-      - *set_locate
       - *fastlane_config
       - *git_config
       - *transifex
@@ -200,7 +191,6 @@ jobs:
       - checkout
       - *bundler_config
       - *install
-      - *set_locate
       - *fastlane_config
       - *keychain_add
       - *git_config
@@ -213,7 +203,6 @@ jobs:
       - checkout
       - *bundler_config
       - *install
-      - *set_locate
       - *fastlane_config
       - *keychain_add
       - *git_config
@@ -228,7 +217,6 @@ jobs:
       - checkout
       - *bundler_config
       - *install
-      - *set_locate
       - *git_config
       - *update_cache
 
