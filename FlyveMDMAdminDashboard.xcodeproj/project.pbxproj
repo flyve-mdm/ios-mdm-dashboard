@@ -15,6 +15,11 @@
 		0A02919620E43EB100E4DF71 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A02919820E43EB100E4DF71 /* Localizable.strings */; };
 		0A75316820E5799000FC5ADE /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A75316720E5799000FC5ADE /* SnapshotHelper.swift */; };
 		0A75316A20E5815600FC5ADE /* about.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A75316920E5815600FC5ADE /* about.strings */; };
+		0A7BB6FA215E6E890074F0EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02916820E4363D00E4DF71 /* ViewController.swift */; };
+		0A7BB6FB215E6E890074F0EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02916620E4363D00E4DF71 /* AppDelegate.swift */; };
+		0A7BB6FE215E6E890074F0EA /* about.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A75316920E5815600FC5ADE /* about.strings */; };
+		0A7BB6FF215E6E890074F0EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A02916D20E4363D00E4DF71 /* Assets.xcassets */; };
+		0A7BB700215E6E890074F0EA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A02919820E43EB100E4DF71 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +57,8 @@
 		0A02919D20E43F4E00E4DF71 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		0A75316720E5799000FC5ADE /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
 		0A75316920E5815600FC5ADE /* about.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = about.strings; sourceTree = "<group>"; };
+		0A7BB705215E6E890074F0EA /* FlyveMDMAdminDashboard-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FlyveMDMAdminDashboard-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7BB707215E6E8A0074F0EA /* Info-iPad.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-iPad.plist"; path = "/Volumes/macintosh/Develop/Teclib/iOS/ios-mdm-dashboard/Info-iPad.plist"; sourceTree = "<absolute>"; };
 		0AA8643B20E532AE00B2BBBC /* ar-EG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-EG"; path = "ar-EG.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		0AA8643C20E532BE00B2BBBC /* ar-SA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-SA"; path = "ar-SA.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		0AA8643D20E532E000B2BBBC /* ca-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ca-ES"; path = "ca-ES.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -96,12 +103,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0A7BB6FC215E6E890074F0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		0A02915A20E4363D00E4DF71 = {
 			isa = PBXGroup;
 			children = (
+				0A7BB706215E6E890074F0EA /* Resources-iPad */,
 				0A02916520E4363D00E4DF71 /* FlyveMDMAdminDashboard */,
 				0A02917A20E4363D00E4DF71 /* FlyveMDMAdminDashboardTests */,
 				0A02918520E4363D00E4DF71 /* FlyveMDMAdminDashboardUITests */,
@@ -115,6 +130,7 @@
 				0A02916320E4363D00E4DF71 /* FlyveMDMAdminDashboard.app */,
 				0A02917720E4363D00E4DF71 /* FlyveMDMAdminDashboardTests.xctest */,
 				0A02918220E4363D00E4DF71 /* FlyveMDMAdminDashboardUITests.xctest */,
+				0A7BB705215E6E890074F0EA /* FlyveMDMAdminDashboard-iPad.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -149,6 +165,14 @@
 				0A02918820E4363D00E4DF71 /* Info.plist */,
 			);
 			path = FlyveMDMAdminDashboardUITests;
+			sourceTree = "<group>";
+		};
+		0A7BB706215E6E890074F0EA /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				0A7BB707215E6E8A0074F0EA /* Info-iPad.plist */,
+			);
+			name = "Resources-iPad";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +231,23 @@
 			productReference = 0A02918220E4363D00E4DF71 /* FlyveMDMAdminDashboardUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		0A7BB6F8215E6E890074F0EA /* FlyveMDMAdminDashboard-iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A7BB701215E6E890074F0EA /* Build configuration list for PBXNativeTarget "FlyveMDMAdminDashboard-iPad" */;
+			buildPhases = (
+				0A7BB6F9215E6E890074F0EA /* Sources */,
+				0A7BB6FC215E6E890074F0EA /* Frameworks */,
+				0A7BB6FD215E6E890074F0EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FlyveMDMAdminDashboard-iPad";
+			productName = FlyveMDMAdminDashboard;
+			productReference = 0A7BB705215E6E890074F0EA /* FlyveMDMAdminDashboard-iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -233,6 +274,9 @@
 						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 0A02916220E4363D00E4DF71;
+					};
+					0A7BB6F8215E6E890074F0EA = {
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -274,6 +318,7 @@
 				0A02916220E4363D00E4DF71 /* FlyveMDMAdminDashboard */,
 				0A02917620E4363D00E4DF71 /* FlyveMDMAdminDashboardTests */,
 				0A02918120E4363D00E4DF71 /* FlyveMDMAdminDashboardUITests */,
+				0A7BB6F8215E6E890074F0EA /* FlyveMDMAdminDashboard-iPad */,
 			);
 		};
 /* End PBXProject section */
@@ -303,6 +348,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0A7BB6FD215E6E890074F0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7BB6FE215E6E890074F0EA /* about.strings in Resources */,
+				0A7BB6FF215E6E890074F0EA /* Assets.xcassets in Resources */,
+				0A7BB700215E6E890074F0EA /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -329,6 +384,15 @@
 			files = (
 				0A02918720E4363D00E4DF71 /* FlyveMDMAdminDashboardUITests.swift in Sources */,
 				0A75316820E5799000FC5ADE /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7BB6F9215E6E890074F0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7BB6FA215E6E890074F0EA /* ViewController.swift in Sources */,
+				0A7BB6FB215E6E890074F0EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -710,6 +774,69 @@
 			};
 			name = Beta;
 		};
+		0A7BB702215E6E890074F0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = H7XJV96LX2;
+				INFOPLIST_FILE = "FlyveMDMAdminDashboard copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.flyve.admin.dashboard;
+				PRODUCT_NAME = "FlyveMDMAdminDashboard-iPad";
+				PROVISIONING_PROFILE = "0a68e1c8-8587-40ca-8a65-6448b4df4ce8";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Development: org.flyve.admin.dashboard";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0A7BB703215E6E890074F0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = H7XJV96LX2;
+				INFOPLIST_FILE = "FlyveMDMAdminDashboard copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.flyve.admin.dashboard;
+				PRODUCT_NAME = "FlyveMDMAdminDashboard-iPad";
+				PROVISIONING_PROFILE = "467bf7f7-a799-4b96-a4d1-ebc259100c60";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Distribution: org.flyve.admin.dashboard";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		0A7BB704215E6E890074F0EA /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = H7XJV96LX2;
+				INFOPLIST_FILE = "FlyveMDMAdminDashboard copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.flyve.admin.dashboard;
+				PRODUCT_NAME = "FlyveMDMAdminDashboard-iPad";
+				PROVISIONING_PROFILE = "467bf7f7-a799-4b96-a4d1-ebc259100c60";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Distribution: org.flyve.admin.dashboard";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Beta;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -749,6 +876,16 @@
 				0A02919220E4363D00E4DF71 /* Debug */,
 				0A02919320E4363D00E4DF71 /* Release */,
 				0A75316E20E583C600FC5ADE /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A7BB701215E6E890074F0EA /* Build configuration list for PBXNativeTarget "FlyveMDMAdminDashboard-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7BB702215E6E890074F0EA /* Debug */,
+				0A7BB703215E6E890074F0EA /* Release */,
+				0A7BB704215E6E890074F0EA /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
