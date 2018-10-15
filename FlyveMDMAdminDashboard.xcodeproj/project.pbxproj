@@ -20,6 +20,10 @@
 		0A7BB6FE215E6E890074F0EA /* about.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A75316920E5815600FC5ADE /* about.strings */; };
 		0A7BB6FF215E6E890074F0EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A02916D20E4363D00E4DF71 /* Assets.xcassets */; };
 		0A7BB700215E6E890074F0EA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A02919820E43EB100E4DF71 /* Localizable.strings */; };
+		273A5CA93E0453DF683344B6 /* Pods_FlyveMDMAdminDashboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7086FE767A3F988164E2A8C7 /* Pods_FlyveMDMAdminDashboard.framework */; };
+		407ABF2DEC75BA95CA55B776 /* Pods_FlyveMDMAdminDashboardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60DD920FA036742B7C13E91B /* Pods_FlyveMDMAdminDashboardUITests.framework */; };
+		5EC8248DA364F1411B9E083C /* Pods_FlyveMDMAdminDashboard_iPad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CB73F3C95151D0F648EF48 /* Pods_FlyveMDMAdminDashboard_iPad.framework */; };
+		A3B3A3E9B1718344C5418637 /* Pods_FlyveMDMAdminDashboardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD84539040C5F0A983D52731 /* Pods_FlyveMDMAdminDashboardTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +41,17 @@
 			remoteGlobalIDString = 0A02916220E4363D00E4DF71;
 			remoteInfo = FlyveMDMAdminDashboard;
 		};
+		0A5E89D321769B29009C810F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A02915B20E4363D00E4DF71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A7BB6F8215E6E890074F0EA;
+			remoteInfo = "FlyveMDMAdminDashboard-iPad";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07CB73F3C95151D0F648EF48 /* Pods_FlyveMDMAdminDashboard_iPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlyveMDMAdminDashboard_iPad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A02916320E4363D00E4DF71 /* FlyveMDMAdminDashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyveMDMAdminDashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A02916620E4363D00E4DF71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A02916820E4363D00E4DF71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +91,21 @@
 		0AA8644F20E5361B00B2BBBC /* cs-CZ */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "cs-CZ"; path = "cs-CZ.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		0AA8645020E536B900B2BBBC /* es-AR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-AR"; path = "es-AR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		0AA8645120E536E500B2BBBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1C1A6869A70DB56B556D06F5 /* Pods-FlyveMDMAdminDashboard-iPad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboard-iPad.release.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboard-iPad/Pods-FlyveMDMAdminDashboard-iPad.release.xcconfig"; sourceTree = "<group>"; };
+		29BEBD0FB309484F6B49D9D8 /* Pods-FlyveMDMAdminDashboard-iPad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboard-iPad.debug.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboard-iPad/Pods-FlyveMDMAdminDashboard-iPad.debug.xcconfig"; sourceTree = "<group>"; };
+		3B0FB40F58E3B35057CD42C4 /* Pods-FlyveMDMAdminDashboardTests.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboardTests.beta.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboardTests/Pods-FlyveMDMAdminDashboardTests.beta.xcconfig"; sourceTree = "<group>"; };
+		4314045D7564B2D89AA03382 /* Pods-FlyveMDMAdminDashboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboardTests.debug.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboardTests/Pods-FlyveMDMAdminDashboardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D5144A278CA6E758624497B /* Pods-FlyveMDMAdminDashboardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboardUITests.debug.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboardUITests/Pods-FlyveMDMAdminDashboardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F65E753DF903F39E74D2278 /* Pods-FlyveMDMAdminDashboardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboardUITests.release.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboardUITests/Pods-FlyveMDMAdminDashboardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		60DD920FA036742B7C13E91B /* Pods_FlyveMDMAdminDashboardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlyveMDMAdminDashboardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F67C0D85AEA0955916C46FD /* Pods-FlyveMDMAdminDashboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboard.debug.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboard/Pods-FlyveMDMAdminDashboard.debug.xcconfig"; sourceTree = "<group>"; };
+		7086FE767A3F988164E2A8C7 /* Pods_FlyveMDMAdminDashboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlyveMDMAdminDashboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81EC82A66D13F42B560A9D76 /* Pods-FlyveMDMAdminDashboardUITests.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboardUITests.beta.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboardUITests/Pods-FlyveMDMAdminDashboardUITests.beta.xcconfig"; sourceTree = "<group>"; };
+		A11FB729FF4D524A2A8D8019 /* Pods-FlyveMDMAdminDashboard-iPad.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboard-iPad.beta.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboard-iPad/Pods-FlyveMDMAdminDashboard-iPad.beta.xcconfig"; sourceTree = "<group>"; };
+		A7988C1834C8805355BC6AA9 /* Pods-FlyveMDMAdminDashboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboardTests.release.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboardTests/Pods-FlyveMDMAdminDashboardTests.release.xcconfig"; sourceTree = "<group>"; };
+		B21CF9F17B2AAF41ED646BD5 /* Pods-FlyveMDMAdminDashboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboard.release.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboard/Pods-FlyveMDMAdminDashboard.release.xcconfig"; sourceTree = "<group>"; };
+		DD84539040C5F0A983D52731 /* Pods_FlyveMDMAdminDashboardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlyveMDMAdminDashboardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4C5AC90DF1562784E9A9B84 /* Pods-FlyveMDMAdminDashboard.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboard.beta.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboard/Pods-FlyveMDMAdminDashboard.beta.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				273A5CA93E0453DF683344B6 /* Pods_FlyveMDMAdminDashboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3B3A3E9B1718344C5418637 /* Pods_FlyveMDMAdminDashboardTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				407ABF2DEC75BA95CA55B776 /* Pods_FlyveMDMAdminDashboardUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EC8248DA364F1411B9E083C /* Pods_FlyveMDMAdminDashboard_iPad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +152,8 @@
 				0A02917A20E4363D00E4DF71 /* FlyveMDMAdminDashboardTests */,
 				0A02918520E4363D00E4DF71 /* FlyveMDMAdminDashboardUITests */,
 				0A02916420E4363D00E4DF71 /* Products */,
+				C083DB3F4E304E6AEEECC670 /* Pods */,
+				D30C859D898A79899546CAAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -175,6 +208,37 @@
 			name = "Resources-iPad";
 			sourceTree = "<group>";
 		};
+		C083DB3F4E304E6AEEECC670 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F67C0D85AEA0955916C46FD /* Pods-FlyveMDMAdminDashboard.debug.xcconfig */,
+				B21CF9F17B2AAF41ED646BD5 /* Pods-FlyveMDMAdminDashboard.release.xcconfig */,
+				E4C5AC90DF1562784E9A9B84 /* Pods-FlyveMDMAdminDashboard.beta.xcconfig */,
+				29BEBD0FB309484F6B49D9D8 /* Pods-FlyveMDMAdminDashboard-iPad.debug.xcconfig */,
+				1C1A6869A70DB56B556D06F5 /* Pods-FlyveMDMAdminDashboard-iPad.release.xcconfig */,
+				A11FB729FF4D524A2A8D8019 /* Pods-FlyveMDMAdminDashboard-iPad.beta.xcconfig */,
+				4314045D7564B2D89AA03382 /* Pods-FlyveMDMAdminDashboardTests.debug.xcconfig */,
+				A7988C1834C8805355BC6AA9 /* Pods-FlyveMDMAdminDashboardTests.release.xcconfig */,
+				3B0FB40F58E3B35057CD42C4 /* Pods-FlyveMDMAdminDashboardTests.beta.xcconfig */,
+				4D5144A278CA6E758624497B /* Pods-FlyveMDMAdminDashboardUITests.debug.xcconfig */,
+				5F65E753DF903F39E74D2278 /* Pods-FlyveMDMAdminDashboardUITests.release.xcconfig */,
+				81EC82A66D13F42B560A9D76 /* Pods-FlyveMDMAdminDashboardUITests.beta.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D30C859D898A79899546CAAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7086FE767A3F988164E2A8C7 /* Pods_FlyveMDMAdminDashboard.framework */,
+				07CB73F3C95151D0F648EF48 /* Pods_FlyveMDMAdminDashboard_iPad.framework */,
+				DD84539040C5F0A983D52731 /* Pods_FlyveMDMAdminDashboardTests.framework */,
+				60DD920FA036742B7C13E91B /* Pods_FlyveMDMAdminDashboardUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -182,9 +246,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A02918B20E4363D00E4DF71 /* Build configuration list for PBXNativeTarget "FlyveMDMAdminDashboard" */;
 			buildPhases = (
+				CA06472D84647A062D2C9C93 /* [CP] Check Pods Manifest.lock */,
 				0A02915F20E4363D00E4DF71 /* Sources */,
 				0A02916020E4363D00E4DF71 /* Frameworks */,
 				0A02916120E4363D00E4DF71 /* Resources */,
+				2333FF435ABC55E76AE92055 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -199,6 +265,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A02918E20E4363D00E4DF71 /* Build configuration list for PBXNativeTarget "FlyveMDMAdminDashboardTests" */;
 			buildPhases = (
+				B7E4DD27FE46C03AA6455423 /* [CP] Check Pods Manifest.lock */,
 				0A02917320E4363D00E4DF71 /* Sources */,
 				0A02917420E4363D00E4DF71 /* Frameworks */,
 				0A02917520E4363D00E4DF71 /* Resources */,
@@ -217,6 +284,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A02919120E4363D00E4DF71 /* Build configuration list for PBXNativeTarget "FlyveMDMAdminDashboardUITests" */;
 			buildPhases = (
+				4375959CD7FEB68544FD3982 /* [CP] Check Pods Manifest.lock */,
 				0A02917E20E4363D00E4DF71 /* Sources */,
 				0A02917F20E4363D00E4DF71 /* Frameworks */,
 				0A02918020E4363D00E4DF71 /* Resources */,
@@ -225,6 +293,7 @@
 			);
 			dependencies = (
 				0A02918420E4363D00E4DF71 /* PBXTargetDependency */,
+				0A5E89D421769B29009C810F /* PBXTargetDependency */,
 			);
 			name = FlyveMDMAdminDashboardUITests;
 			productName = FlyveMDMAdminDashboardUITests;
@@ -235,9 +304,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A7BB701215E6E890074F0EA /* Build configuration list for PBXNativeTarget "FlyveMDMAdminDashboard-iPad" */;
 			buildPhases = (
+				B892B24C6522411B190982FF /* [CP] Check Pods Manifest.lock */,
 				0A7BB6F9215E6E890074F0EA /* Sources */,
 				0A7BB6FC215E6E890074F0EA /* Frameworks */,
 				0A7BB6FD215E6E890074F0EA /* Resources */,
+				4EDDF8D206B58FE54019792B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -266,7 +337,7 @@
 					0A02917620E4363D00E4DF71 = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 1000;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						TestTargetID = 0A02916220E4363D00E4DF71;
 					};
 					0A02918120E4363D00E4DF71 = {
@@ -360,6 +431,141 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2333FF435ABC55E76AE92055 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlyveMDMAdminDashboard/Pods-FlyveMDMAdminDashboard-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/swift-library-glpi/swift_library_glpi.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/swift_library_glpi.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlyveMDMAdminDashboard/Pods-FlyveMDMAdminDashboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4375959CD7FEB68544FD3982 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlyveMDMAdminDashboardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EDDF8D206B58FE54019792B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlyveMDMAdminDashboard-iPad/Pods-FlyveMDMAdminDashboard-iPad-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/swift-library-glpi/swift_library_glpi.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/swift_library_glpi.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlyveMDMAdminDashboard-iPad/Pods-FlyveMDMAdminDashboard-iPad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7E4DD27FE46C03AA6455423 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlyveMDMAdminDashboardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B892B24C6522411B190982FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlyveMDMAdminDashboard-iPad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA06472D84647A062D2C9C93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlyveMDMAdminDashboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0A02915F20E4363D00E4DF71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -408,6 +614,11 @@
 			isa = PBXTargetDependency;
 			target = 0A02916220E4363D00E4DF71 /* FlyveMDMAdminDashboard */;
 			targetProxy = 0A02918320E4363D00E4DF71 /* PBXContainerItemProxy */;
+		};
+		0A5E89D421769B29009C810F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A7BB6F8215E6E890074F0EA /* FlyveMDMAdminDashboard-iPad */;
+			targetProxy = 0A5E89D321769B29009C810F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -561,6 +772,7 @@
 		};
 		0A02918C20E4363D00E4DF71 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F67C0D85AEA0955916C46FD /* Pods-FlyveMDMAdminDashboard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -582,6 +794,7 @@
 		};
 		0A02918D20E4363D00E4DF71 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B21CF9F17B2AAF41ED646BD5 /* Pods-FlyveMDMAdminDashboard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -603,15 +816,18 @@
 		};
 		0A02918F20E4363D00E4DF71 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4314045D7564B2D89AA03382 /* Pods-FlyveMDMAdminDashboardTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = H7XJV96LX2;
 				INFOPLIST_FILE = FlyveMDMAdminDashboardTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.flyve.admin.dashboard.FlyveMDMAdminDashboardTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyveMDMAdminDashboard.app/FlyveMDMAdminDashboard";
@@ -620,15 +836,18 @@
 		};
 		0A02919020E4363D00E4DF71 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7988C1834C8805355BC6AA9 /* Pods-FlyveMDMAdminDashboardTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = H7XJV96LX2;
 				INFOPLIST_FILE = FlyveMDMAdminDashboardTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.flyve.admin.dashboard.FlyveMDMAdminDashboardTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyveMDMAdminDashboard.app/FlyveMDMAdminDashboard";
@@ -637,14 +856,17 @@
 		};
 		0A02919220E4363D00E4DF71 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D5144A278CA6E758624497B /* Pods-FlyveMDMAdminDashboardUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H7XJV96LX2;
 				INFOPLIST_FILE = FlyveMDMAdminDashboardUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.flyve.admin.dashboard.FlyveMDMAdminDashboardUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FlyveMDMAdminDashboard;
@@ -653,14 +875,17 @@
 		};
 		0A02919320E4363D00E4DF71 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F65E753DF903F39E74D2278 /* Pods-FlyveMDMAdminDashboardUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H7XJV96LX2;
 				INFOPLIST_FILE = FlyveMDMAdminDashboardUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.flyve.admin.dashboard.FlyveMDMAdminDashboardUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FlyveMDMAdminDashboard;
@@ -722,6 +947,7 @@
 		};
 		0A75316C20E583C600FC5ADE /* Beta */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4C5AC90DF1562784E9A9B84 /* Pods-FlyveMDMAdminDashboard.beta.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -743,15 +969,18 @@
 		};
 		0A75316D20E583C600FC5ADE /* Beta */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B0FB40F58E3B35057CD42C4 /* Pods-FlyveMDMAdminDashboardTests.beta.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = H7XJV96LX2;
 				INFOPLIST_FILE = FlyveMDMAdminDashboardTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.flyve.admin.dashboard.FlyveMDMAdminDashboardTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyveMDMAdminDashboard.app/FlyveMDMAdminDashboard";
@@ -760,14 +989,17 @@
 		};
 		0A75316E20E583C600FC5ADE /* Beta */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81EC82A66D13F42B560A9D76 /* Pods-FlyveMDMAdminDashboardUITests.beta.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H7XJV96LX2;
 				INFOPLIST_FILE = FlyveMDMAdminDashboardUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.flyve.admin.dashboard.FlyveMDMAdminDashboardUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FlyveMDMAdminDashboard;
@@ -776,6 +1008,7 @@
 		};
 		0A7BB702215E6E890074F0EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29BEBD0FB309484F6B49D9D8 /* Pods-FlyveMDMAdminDashboard-iPad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -797,6 +1030,7 @@
 		};
 		0A7BB703215E6E890074F0EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1A6869A70DB56B556D06F5 /* Pods-FlyveMDMAdminDashboard-iPad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -818,6 +1052,7 @@
 		};
 		0A7BB704215E6E890074F0EA /* Beta */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A11FB729FF4D524A2A8D8019 /* Pods-FlyveMDMAdminDashboard-iPad.beta.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

@@ -1,0 +1,1425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1935645CBBC3C68161803346EBC717AB /* Routers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F41A9C0857E6E5B899DACEE9D04AA /* Routers.swift */; };
+		262969214497FD866AB1DFCEF7C2E97B /* swift-library-glpi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C319DD00CBC519E09C63ABAD42E89F68 /* swift-library-glpi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB7F06FCE6F9819A91B8FECF7384B78 /* Pods-FlyveMDMAdminDashboard-iPad-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD506A1D2FE9A89E27FA8A4F3FE34A5 /* Pods-FlyveMDMAdminDashboard-iPad-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		334B3751F528D218F4AE0344A2814215 /* Pods-FlyveMDMAdminDashboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D7959112C45FA22A682C6C9A44253D /* Pods-FlyveMDMAdminDashboard-dummy.m */; };
+		352DE403CF30951C3493D0DFF65A801D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		42901C13A725D283F91E92A0A9535A7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		49BC3FF61F08DCCD3B33A841152B5B48 /* Glpi.h in Headers */ = {isa = PBXBuildFile; fileRef = 2337B5470516DD533276041EB28B0522 /* Glpi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BFA7D749481EB0DF421BDCE26EC525E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		626E097DB1372AC5ACE2578033BF9E4B /* ItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9080329C69B8E2E328A79865000E6747 /* ItemType.swift */; };
+		65353DCCEC6343A70C4A43DB8E4C2718 /* Pods-FlyveMDMAdminDashboardUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2980E728143209D33E3E9ED563893067 /* Pods-FlyveMDMAdminDashboardUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70E49372F31F48CB22F31DC62D420202 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		780ECF55774BABB9DD6B177165F8B85A /* Pods-FlyveMDMAdminDashboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FA2E9A86E403EF34512BD123A3A6A7D /* Pods-FlyveMDMAdminDashboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F0E70B70C977359694801808EACF817 /* swift-library-glpi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 774F0B0F1BDFAF113FFDADC1F742A974 /* swift-library-glpi-dummy.m */; };
+		C9B260511F55F945134D2ABAEC82D96E /* Pods-FlyveMDMAdminDashboardTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF481D8F00ED54D7827A2F6405773B13 /* Pods-FlyveMDMAdminDashboardTests-dummy.m */; };
+		CC35737920EDB7E885455C2E511229EB /* Pods-FlyveMDMAdminDashboardTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96572BC59AB7D1DC0C7B6FD9D1148307 /* Pods-FlyveMDMAdminDashboardTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D736D03CB231778FB257DA52467B80BE /* GlpiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C37BB7238FEA10E66DB3A697D2325C /* GlpiRequest.swift */; };
+		E510D1D47DE4A0162C6EDD4FCCCF9E56 /* Pods-FlyveMDMAdminDashboard-iPad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7056D6CADB347762F1EEE0D1D54B0F81 /* Pods-FlyveMDMAdminDashboard-iPad-dummy.m */; };
+		E7F0E04756B1F1609D28E53A2B3F0FAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F2657E645A435C3EB07218B961524F01 /* GlpiConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B346C55C0F926B7673010D5DD1A78F8 /* GlpiConfig.swift */; };
+		F9FCAC790B9A5CD07B1B1B7C8584CBC9 /* Pods-FlyveMDMAdminDashboardUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 366F0285F984F79359CF99395EDDC0E7 /* Pods-FlyveMDMAdminDashboardUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8151A394EB71F0DBE0D39FA7E210FB79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21308A91646F3E4C33723799FE592D34;
+			remoteInfo = "Pods-FlyveMDMAdminDashboard";
+		};
+		84B07A995048FF5D471B6970C46C6050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B5E995C6DD886286C9EE54EF57081AC;
+			remoteInfo = "swift-library-glpi";
+		};
+		84FB4C099859E3AD82E2AC975DA48BEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21308A91646F3E4C33723799FE592D34;
+			remoteInfo = "Pods-FlyveMDMAdminDashboard";
+		};
+		BE93EE4ED9DDD6BF3E3C121D0237839F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B5E995C6DD886286C9EE54EF57081AC;
+			remoteInfo = "swift-library-glpi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002F8AE595025E4D9AA3317A2603A9BB /* Pods_FlyveMDMAdminDashboardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FlyveMDMAdminDashboardTests.framework; path = "Pods-FlyveMDMAdminDashboardTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		031D08A370B0E9D5FF8C5F925179873E /* Pods-FlyveMDMAdminDashboardTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlyveMDMAdminDashboardTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0D2F41A9C0857E6E5B899DACEE9D04AA /* Routers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Routers.swift; path = Source/Routers.swift; sourceTree = "<group>"; };
+		1159B8B09B4E8655A4618277620445BF /* Pods-FlyveMDMAdminDashboardUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlyveMDMAdminDashboardUITests.modulemap"; sourceTree = "<group>"; };
+		15BDA0E2F3BF4FC72827844863B15A81 /* Pods-FlyveMDMAdminDashboardUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlyveMDMAdminDashboardUITests-frameworks.sh"; sourceTree = "<group>"; };
+		175B40A046B254CDDF9DB8E66F97C65A /* swift_library_glpi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = swift_library_glpi.framework; path = "swift-library-glpi.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE0DABFEB7461636D69A8B6E5695CF7 /* Pods-FlyveMDMAdminDashboard-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlyveMDMAdminDashboard-frameworks.sh"; sourceTree = "<group>"; };
+		1B02A022E6AFB2C4EDE60A9CC58681C7 /* Pods-FlyveMDMAdminDashboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlyveMDMAdminDashboard.release.xcconfig"; sourceTree = "<group>"; };
+		1C94BF9E76F35EC8FB76EF5BA9E330F4 /* swift-library-glpi.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "swift-library-glpi.xcconfig"; sourceTree = "<group>"; };
+		1E266C6C3653D82CC18079146F68FB84 /* Pods-FlyveMDMAdminDashboard-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlyveMDMAdminDashboard-acknowledgements.plist"; sourceTree = "<group>"; };
+		2337B5470516DD533276041EB28B0522 /* Glpi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Glpi.h; path = Source/Glpi.h; sourceTree = "<group>"; };
+		28AB6BDC4C6E089A11A705B75196571B /* Pods-FlyveMDMAdminDashboard-iPad.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlyveMDMAdminDashboard-iPad.beta.xcconfig"; sourceTree = "<group>"; };
+		2D8121EA442F30A30BD0CEE5FCAEA964 /* Pods-FlyveMDMAdminDashboard.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlyveMDMAdminDashboard.beta.xcconfig"; sourceTree = "<group>"; };
+		2FCF8A7ED9F03ACB2893B3B6E51BA634 /* Pods-FlyveMDMAdminDashboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlyveMDMAdminDashboardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		333CC6718AF22E152ECD8261B4DDDEC7 /* swift-library-glpi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "swift-library-glpi-dummy.m"; sourceTree = "<group>"; };
+		34ECF7A721CC6C31B70FFB185547575C /* Pods-FlyveMDMAdminDashboardTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlyveMDMAdminDashboardTests-resources.sh"; sourceTree = "<group>"; };
+		3A7524319BEEACE870075062E08AECE8 /* Pods-FlyveMDMAdminDashboardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlyveMDMAdminDashboardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4984B5A42BFA6AD591DB1C9F500BE7D0 /* Pods-FlyveMDMAdminDashboard-iPad-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlyveMDMAdminDashboard-iPad-dummy.m"; sourceTree = "<group>"; };
+		50F0662AE49612E21A4B50E467CC258F /* Pods_FlyveMDMAdminDashboardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FlyveMDMAdminDashboardUITests.framework; path = "Pods-FlyveMDMAdminDashboardUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5FCA42F433E567F809CD8E799CEA7FAE /* Pods-FlyveMDMAdminDashboardTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlyveMDMAdminDashboardTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6B346C55C0F926B7673010D5DD1A78F8 /* GlpiConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlpiConfig.swift; path = Source/GlpiConfig.swift; sourceTree = "<group>"; };
+		6BF29E306E6EC2AD22B93525A55A32D8 /* Pods_FlyveMDMAdminDashboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FlyveMDMAdminDashboard.framework; path = "Pods-FlyveMDMAdminDashboard.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD574896408D067DEECE68F039D600E /* Pods-FlyveMDMAdminDashboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlyveMDMAdminDashboardTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E4D897838464AA39DBEB680C3C7F137 /* Pods-FlyveMDMAdminDashboardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlyveMDMAdminDashboardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7AB264C48E51A51DA39AEBD56A325136 /* Pods-FlyveMDMAdminDashboardUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlyveMDMAdminDashboardUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8131BF779255D29C7C3D2D310F535CA8 /* Pods_FlyveMDMAdminDashboard_iPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FlyveMDMAdminDashboard_iPad.framework; path = "Pods-FlyveMDMAdminDashboard-iPad.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		870D60FB83699BDCE061EE29BB701DA6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8795AA0DC683DBB972A63679FC35D7B9 /* Pods-FlyveMDMAdminDashboard-iPad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlyveMDMAdminDashboard-iPad.release.xcconfig"; sourceTree = "<group>"; };
+		898505929C6BE0047CE00D18548E67A7 /* Pods-FlyveMDMAdminDashboard-iPad-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlyveMDMAdminDashboard-iPad-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8CBC76E31FFDA769CFAAB7292B29DDD1 /* Pods-FlyveMDMAdminDashboardTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlyveMDMAdminDashboardTests-umbrella.h"; sourceTree = "<group>"; };
+		9080329C69B8E2E328A79865000E6747 /* ItemType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ItemType.swift; path = Source/ItemType.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		945F21D3B2F0086CB575746FBD71D35A /* Pods-FlyveMDMAdminDashboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlyveMDMAdminDashboard.debug.xcconfig"; sourceTree = "<group>"; };
+		972A767F0F1697DBEFDB1F924EAF0E5B /* Pods-FlyveMDMAdminDashboard-iPad-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlyveMDMAdminDashboard-iPad-resources.sh"; sourceTree = "<group>"; };
+		9CA208C80E8808978927D11324D24014 /* Pods-FlyveMDMAdminDashboard-iPad.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlyveMDMAdminDashboard-iPad.modulemap"; sourceTree = "<group>"; };
+		AFB9AF239FACC03CAF2AF381910E8879 /* Pods-FlyveMDMAdminDashboard-iPad-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlyveMDMAdminDashboard-iPad-frameworks.sh"; sourceTree = "<group>"; };
+		B26313B7A2C17A6B5704EC58043E8754 /* swift-library-glpi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "swift-library-glpi.modulemap"; sourceTree = "<group>"; };
+		B4128A7804053E5E10D7F41FFAD4D926 /* Pods-FlyveMDMAdminDashboard-iPad-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlyveMDMAdminDashboard-iPad-acknowledgements.plist"; sourceTree = "<group>"; };
+		B697914497C6E559EC7EB87122189F2E /* Pods-FlyveMDMAdminDashboardTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlyveMDMAdminDashboardTests.modulemap"; sourceTree = "<group>"; };
+		C5A8329126102DA403E62400CD155B38 /* Pods-FlyveMDMAdminDashboardUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlyveMDMAdminDashboardUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C949B3BBD1D8BFE6E8C0E6302795F65C /* Pods-FlyveMDMAdminDashboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlyveMDMAdminDashboard.modulemap"; sourceTree = "<group>"; };
+		CB213793EBB47ACCE3CCDBDDC5CB2E02 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB4753F697253CD0175172749800CCE3 /* Pods-FlyveMDMAdminDashboardTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlyveMDMAdminDashboardTests-frameworks.sh"; sourceTree = "<group>"; };
+		CD1EDEA540197207D4E4694220ED226E /* swift-library-glpi-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "swift-library-glpi-prefix.pch"; sourceTree = "<group>"; };
+		D203CD9134F4A403FC3B577A175394B6 /* Pods-FlyveMDMAdminDashboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlyveMDMAdminDashboard-umbrella.h"; sourceTree = "<group>"; };
+		D9410FA1781D25DC897C2056B06AAFD6 /* Pods-FlyveMDMAdminDashboardUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlyveMDMAdminDashboardUITests-umbrella.h"; sourceTree = "<group>"; };
+		DC09EC267604B673E435EA04AA25A29E /* Pods-FlyveMDMAdminDashboard-iPad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlyveMDMAdminDashboard-iPad.debug.xcconfig"; sourceTree = "<group>"; };
+		DC677F62650C05343C275EC15E2B8A98 /* Pods-FlyveMDMAdminDashboard-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlyveMDMAdminDashboard-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DF41DA785521D0ADE76CACF72500B925 /* Pods-FlyveMDMAdminDashboardUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlyveMDMAdminDashboardUITests-dummy.m"; sourceTree = "<group>"; };
+		DFB861442F73CA61B062029A28B7F0CA /* Pods-FlyveMDMAdminDashboard-iPad-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlyveMDMAdminDashboard-iPad-umbrella.h"; sourceTree = "<group>"; };
+		EA253B7BF4B783CCCDAB8EA20F032B93 /* Pods-FlyveMDMAdminDashboardTests.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlyveMDMAdminDashboardTests.beta.xcconfig"; sourceTree = "<group>"; };
+		EAAE4BCAE4409E16CDEC8B9839CEA601 /* Pods-FlyveMDMAdminDashboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlyveMDMAdminDashboard-dummy.m"; sourceTree = "<group>"; };
+		F1E3E341789D75BCF199CE685E1C46D3 /* Pods-FlyveMDMAdminDashboard-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlyveMDMAdminDashboard-resources.sh"; sourceTree = "<group>"; };
+		F2C37BB7238FEA10E66DB3A697D2325C /* GlpiRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlpiRequest.swift; path = Source/GlpiRequest.swift; sourceTree = "<group>"; };
+		F2EA3E794CB2724867923C6E596DBB53 /* Pods-FlyveMDMAdminDashboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlyveMDMAdminDashboard.debug.xcconfig"; sourceTree = "<group>"; };
+		F505E6CC8E2AF8A238FE47D794DBFA11 /* Pods-FlyveMDMAdminDashboard-iPad.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlyveMDMAdminDashboard-iPad.beta.xcconfig"; sourceTree = "<group>"; };
+		FD30EEE4BE84E148F2ED8C8BFDE51B95 /* Pods-FlyveMDMAdminDashboard-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlyveMDMAdminDashboard-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FF481D8F00ED54D7827A2F6405773B13 /* Pods-FlyveMDMAdminDashboardTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlyveMDMAdminDashboardTests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43AA5D0B515030F092A23A95CA75DED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42901C13A725D283F91E92A0A9535A7E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80EC03DEC97A5E129855DB6F5CABBE23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F0E04756B1F1609D28E53A2B3F0FAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900D821908398FE9705F2AEC14C2CF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352DE403CF30951C3493D0DFF65A801D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E2A688FAF69804D7054903F1846795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E49372F31F48CB22F31DC62D420202 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A842E11327E7DCCA82AEC048A29F05E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BFA7D749481EB0DF421BDCE26EC525E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D2D7F8A199648E053636DD06FF846B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5658EDDF3446DBD43D3E8009583DA3B /* swift-library-glpi */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1E50515EAD0BAB4BFA8B15DEDEA82893 /* Pods-FlyveMDMAdminDashboard */ = {
+			isa = PBXGroup;
+			children = (
+				53A7D67A595C1BA38B1A69A0810AEE3A /* Pods-FlyveMDMAdminDashboard.modulemap */,
+				FD30EEE4BE84E148F2ED8C8BFDE51B95 /* Pods-FlyveMDMAdminDashboard-acknowledgements.markdown */,
+				D4EA1C44827689AAF8933D477BD31FF1 /* Pods-FlyveMDMAdminDashboard-acknowledgements.plist */,
+				04D7959112C45FA22A682C6C9A44253D /* Pods-FlyveMDMAdminDashboard-dummy.m */,
+				D46A9C279C4F369AC93FA264537572A0 /* Pods-FlyveMDMAdminDashboard-frameworks.sh */,
+				79449645C74FC512BE1B6276830D47CD /* Pods-FlyveMDMAdminDashboard-Info.plist */,
+				3FA2E9A86E403EF34512BD123A3A6A7D /* Pods-FlyveMDMAdminDashboard-umbrella.h */,
+				C6E1A090AA9611034D05272227FCA4C9 /* Pods-FlyveMDMAdminDashboard.beta.xcconfig */,
+				F2EA3E794CB2724867923C6E596DBB53 /* Pods-FlyveMDMAdminDashboard.debug.xcconfig */,
+				5449E48794973B19B21B712AE5219CA2 /* Pods-FlyveMDMAdminDashboard.release.xcconfig */,
+			);
+			name = "Pods-FlyveMDMAdminDashboard";
+			path = "Target Support Files/Pods-FlyveMDMAdminDashboard";
+			sourceTree = "<group>";
+		};
+		2EB9B6BC564A820548410B24E2957C27 /* Pods-FlyveMDMAdminDashboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CACBEC787823C2D567701C89987DD58 /* Pods-FlyveMDMAdminDashboardTests.modulemap */,
+				37768E1841467F312DC5A2FDD74E4422 /* Pods-FlyveMDMAdminDashboardTests-acknowledgements.markdown */,
+				5FCA42F433E567F809CD8E799CEA7FAE /* Pods-FlyveMDMAdminDashboardTests-acknowledgements.plist */,
+				FF481D8F00ED54D7827A2F6405773B13 /* Pods-FlyveMDMAdminDashboardTests-dummy.m */,
+				C98410035912D25705C6EABC06FF80F8 /* Pods-FlyveMDMAdminDashboardTests-Info.plist */,
+				96572BC59AB7D1DC0C7B6FD9D1148307 /* Pods-FlyveMDMAdminDashboardTests-umbrella.h */,
+				D9BE7CE812C1C29FA43C0BAB522C0003 /* Pods-FlyveMDMAdminDashboardTests.beta.xcconfig */,
+				9B60A9E017F4046FC596EFE45A491DBF /* Pods-FlyveMDMAdminDashboardTests.debug.xcconfig */,
+				13BB0F90DAABD6C9A216FF5DCB248FD1 /* Pods-FlyveMDMAdminDashboardTests.release.xcconfig */,
+			);
+			name = "Pods-FlyveMDMAdminDashboardTests";
+			path = "Target Support Files/Pods-FlyveMDMAdminDashboardTests";
+			sourceTree = "<group>";
+		};
+		37CD42A6FA1C95BDC01E7549826F791D /* Pods-FlyveMDMAdminDashboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D09C7EC658072799C5BE0237EF84E27 /* Pods-FlyveMDMAdminDashboardUITests.modulemap */,
+				27270E057BFF2F8CC620EF8E88DD8E4E /* Pods-FlyveMDMAdminDashboardUITests-acknowledgements.markdown */,
+				BAA7F6889297BA798CC0031C439DBFD9 /* Pods-FlyveMDMAdminDashboardUITests-acknowledgements.plist */,
+				366F0285F984F79359CF99395EDDC0E7 /* Pods-FlyveMDMAdminDashboardUITests-dummy.m */,
+				049D4D981EC056764ECCAE298884A343 /* Pods-FlyveMDMAdminDashboardUITests-Info.plist */,
+				2980E728143209D33E3E9ED563893067 /* Pods-FlyveMDMAdminDashboardUITests-umbrella.h */,
+				A0D01018316DD037080495CE7FE59FC2 /* Pods-FlyveMDMAdminDashboardUITests.beta.xcconfig */,
+				468F90082761185B8A5DEBA9F08C696C /* Pods-FlyveMDMAdminDashboardUITests.debug.xcconfig */,
+				03A594ABD31BD12C7C1829F6A8F6E17C /* Pods-FlyveMDMAdminDashboardUITests.release.xcconfig */,
+			);
+			name = "Pods-FlyveMDMAdminDashboardUITests";
+			path = "Target Support Files/Pods-FlyveMDMAdminDashboardUITests";
+			sourceTree = "<group>";
+		};
+		3D58EC9BD771579F7EFD3BB589519EBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BF29E306E6EC2AD22B93525A55A32D8 /* Pods_FlyveMDMAdminDashboard.framework */,
+				8131BF779255D29C7C3D2D310F535CA8 /* Pods_FlyveMDMAdminDashboard_iPad.framework */,
+				002F8AE595025E4D9AA3317A2603A9BB /* Pods_FlyveMDMAdminDashboardTests.framework */,
+				50F0662AE49612E21A4B50E467CC258F /* Pods_FlyveMDMAdminDashboardUITests.framework */,
+				175B40A046B254CDDF9DB8E66F97C65A /* swift_library_glpi.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6CAC0957E02F777DAC68BBCE502E14AC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E50515EAD0BAB4BFA8B15DEDEA82893 /* Pods-FlyveMDMAdminDashboard */,
+				8325EB26E93A594135F708CD20E97FCA /* Pods-FlyveMDMAdminDashboard-iPad */,
+				2EB9B6BC564A820548410B24E2957C27 /* Pods-FlyveMDMAdminDashboardTests */,
+				37CD42A6FA1C95BDC01E7549826F791D /* Pods-FlyveMDMAdminDashboardUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0D2D7F8A199648E053636DD06FF846B9 /* Pods */,
+				3D58EC9BD771579F7EFD3BB589519EBA /* Products */,
+				6CAC0957E02F777DAC68BBCE502E14AC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8325EB26E93A594135F708CD20E97FCA /* Pods-FlyveMDMAdminDashboard-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				C5A86E5D72FBC33CDA5B8F8D4DDC04A6 /* Pods-FlyveMDMAdminDashboard-iPad.modulemap */,
+				E9CC5EAFA87EE8A551C10C423C2A8321 /* Pods-FlyveMDMAdminDashboard-iPad-acknowledgements.markdown */,
+				37D9190BBE19E2BA7B2548BC34297362 /* Pods-FlyveMDMAdminDashboard-iPad-acknowledgements.plist */,
+				7056D6CADB347762F1EEE0D1D54B0F81 /* Pods-FlyveMDMAdminDashboard-iPad-dummy.m */,
+				2908CF1EA471474F2FF6E9084796324C /* Pods-FlyveMDMAdminDashboard-iPad-frameworks.sh */,
+				581D714AF0F62EE32A5C90428288FE02 /* Pods-FlyveMDMAdminDashboard-iPad-Info.plist */,
+				1FD506A1D2FE9A89E27FA8A4F3FE34A5 /* Pods-FlyveMDMAdminDashboard-iPad-umbrella.h */,
+				F505E6CC8E2AF8A238FE47D794DBFA11 /* Pods-FlyveMDMAdminDashboard-iPad.beta.xcconfig */,
+				E62DE7F4B29B5D4F447BE7E6B54ECCB0 /* Pods-FlyveMDMAdminDashboard-iPad.debug.xcconfig */,
+				94F307606458EAE794DD82EF0149EB28 /* Pods-FlyveMDMAdminDashboard-iPad.release.xcconfig */,
+			);
+			name = "Pods-FlyveMDMAdminDashboard-iPad";
+			path = "Target Support Files/Pods-FlyveMDMAdminDashboard-iPad";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC562C1D8E8753FBA30C3B6ED2349626 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1014A026E516D75DA95FCAAB479B44E8 /* swift-library-glpi.modulemap */,
+				C347E05F9193F2B16C5344DD8D1E5BA2 /* swift-library-glpi.xcconfig */,
+				774F0B0F1BDFAF113FFDADC1F742A974 /* swift-library-glpi-dummy.m */,
+				96F485D9DAAC3A14DE0DEBBBCC9C50B8 /* swift-library-glpi-Info.plist */,
+				4A6CBDFFB4AF77E20594471AEF5FC6FD /* swift-library-glpi-prefix.pch */,
+				C319DD00CBC519E09C63ABAD42E89F68 /* swift-library-glpi-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/swift-library-glpi";
+			sourceTree = "<group>";
+		};
+		E5658EDDF3446DBD43D3E8009583DA3B /* swift-library-glpi */ = {
+			isa = PBXGroup;
+			children = (
+				2337B5470516DD533276041EB28B0522 /* Glpi.h */,
+				6B346C55C0F926B7673010D5DD1A78F8 /* GlpiConfig.swift */,
+				F2C37BB7238FEA10E66DB3A697D2325C /* GlpiRequest.swift */,
+				9080329C69B8E2E328A79865000E6747 /* ItemType.swift */,
+				0D2F41A9C0857E6E5B899DACEE9D04AA /* Routers.swift */,
+				CC562C1D8E8753FBA30C3B6ED2349626 /* Support Files */,
+			);
+			name = "swift-library-glpi";
+			path = "swift-library-glpi";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2C43B2996DA98A8F013E769620637599 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB7F06FCE6F9819A91B8FECF7384B78 /* Pods-FlyveMDMAdminDashboard-iPad-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A74AEB92B0AA68C737DF0828BBBCDE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC35737920EDB7E885455C2E511229EB /* Pods-FlyveMDMAdminDashboardTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF53411393521B04E2DEC5D8C67A064 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65353DCCEC6343A70C4A43DB8E4C2718 /* Pods-FlyveMDMAdminDashboardUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B745DAD58824300AA4F5910AA755316F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BC3FF61F08DCCD3B33A841152B5B48 /* Glpi.h in Headers */,
+				262969214497FD866AB1DFCEF7C2E97B /* swift-library-glpi-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4A53A42D6AC8FB334CA33CDDD60F7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780ECF55774BABB9DD6B177165F8B85A /* Pods-FlyveMDMAdminDashboard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B5E995C6DD886286C9EE54EF57081AC /* swift-library-glpi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0AB7096840344DAF58A497C25931AD9 /* Build configuration list for PBXNativeTarget "swift-library-glpi" */;
+			buildPhases = (
+				B745DAD58824300AA4F5910AA755316F /* Headers */,
+				E95AB39B7D53CEF8EAAC22B16030613E /* Sources */,
+				900D821908398FE9705F2AEC14C2CF0B /* Frameworks */,
+				DA5B853698A0688A7B7702F5A11880E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swift-library-glpi";
+			productName = "swift-library-glpi";
+			productReference = 175B40A046B254CDDF9DB8E66F97C65A /* swift_library_glpi.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		21308A91646F3E4C33723799FE592D34 /* Pods-FlyveMDMAdminDashboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2BA51A8F5A60E07EC3494BAD514C5F0 /* Build configuration list for PBXNativeTarget "Pods-FlyveMDMAdminDashboard" */;
+			buildPhases = (
+				DE4A53A42D6AC8FB334CA33CDDD60F7B /* Headers */,
+				0DEAAA4CE365649B62E145B3D5E17613 /* Sources */,
+				43AA5D0B515030F092A23A95CA75DED3 /* Frameworks */,
+				38DA862E6D8F3434BC54A7F757739439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F03C758A4CF270A513F40DAA9D9B1CCE /* PBXTargetDependency */,
+			);
+			name = "Pods-FlyveMDMAdminDashboard";
+			productName = "Pods-FlyveMDMAdminDashboard";
+			productReference = 6BF29E306E6EC2AD22B93525A55A32D8 /* Pods_FlyveMDMAdminDashboard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5EF8C46810749621AE9E9D7A6963D6D /* Pods-FlyveMDMAdminDashboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D129825544AD625DE87C846FBA408265 /* Build configuration list for PBXNativeTarget "Pods-FlyveMDMAdminDashboardTests" */;
+			buildPhases = (
+				9A74AEB92B0AA68C737DF0828BBBCDE6 /* Headers */,
+				838ABEC1FD53FF4EA878E2DAD40EBF71 /* Sources */,
+				80EC03DEC97A5E129855DB6F5CABBE23 /* Frameworks */,
+				5122FBD84497120657CA2F47FF690120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAFB526E1F8873B37E6550990D409CBF /* PBXTargetDependency */,
+			);
+			name = "Pods-FlyveMDMAdminDashboardTests";
+			productName = "Pods-FlyveMDMAdminDashboardTests";
+			productReference = 002F8AE595025E4D9AA3317A2603A9BB /* Pods_FlyveMDMAdminDashboardTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E017B2FB10BFB0C7B9B3FCA70477D8CB /* Pods-FlyveMDMAdminDashboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C768D8F3EEF9E5BD46965118D23597E5 /* Build configuration list for PBXNativeTarget "Pods-FlyveMDMAdminDashboardUITests" */;
+			buildPhases = (
+				AAF53411393521B04E2DEC5D8C67A064 /* Headers */,
+				0EFAC8C2531710F6214D41D3C8B2651E /* Sources */,
+				A842E11327E7DCCA82AEC048A29F05E6 /* Frameworks */,
+				E8FE2A1B99B066CF3BF40CF5ABD1CE0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD0F16CE31E28D2A54B8A0AD76FE4E84 /* PBXTargetDependency */,
+			);
+			name = "Pods-FlyveMDMAdminDashboardUITests";
+			productName = "Pods-FlyveMDMAdminDashboardUITests";
+			productReference = 50F0662AE49612E21A4B50E467CC258F /* Pods_FlyveMDMAdminDashboardUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FEEA1CFB2E0BA1299E32FA546173FE1E /* Pods-FlyveMDMAdminDashboard-iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7A0753CDF357A8DAA0708C3331102E7 /* Build configuration list for PBXNativeTarget "Pods-FlyveMDMAdminDashboard-iPad" */;
+			buildPhases = (
+				2C43B2996DA98A8F013E769620637599 /* Headers */,
+				A8AA49643E9A363D59FE4A288ACCB738 /* Sources */,
+				A6E2A688FAF69804D7054903F1846795 /* Frameworks */,
+				FA4C970DFA6AD2F2C3EE6C0A24A96402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53CEAA9362CF0C772E6F5D672D8E0B8D /* PBXTargetDependency */,
+			);
+			name = "Pods-FlyveMDMAdminDashboard-iPad";
+			productName = "Pods-FlyveMDMAdminDashboard-iPad";
+			productReference = 8131BF779255D29C7C3D2D310F535CA8 /* Pods_FlyveMDMAdminDashboard_iPad.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3D58EC9BD771579F7EFD3BB589519EBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21308A91646F3E4C33723799FE592D34 /* Pods-FlyveMDMAdminDashboard */,
+				FEEA1CFB2E0BA1299E32FA546173FE1E /* Pods-FlyveMDMAdminDashboard-iPad */,
+				C5EF8C46810749621AE9E9D7A6963D6D /* Pods-FlyveMDMAdminDashboardTests */,
+				E017B2FB10BFB0C7B9B3FCA70477D8CB /* Pods-FlyveMDMAdminDashboardUITests */,
+				1B5E995C6DD886286C9EE54EF57081AC /* swift-library-glpi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38DA862E6D8F3434BC54A7F757739439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5122FBD84497120657CA2F47FF690120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5B853698A0688A7B7702F5A11880E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8FE2A1B99B066CF3BF40CF5ABD1CE0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4C970DFA6AD2F2C3EE6C0A24A96402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DEAAA4CE365649B62E145B3D5E17613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334B3751F528D218F4AE0344A2814215 /* Pods-FlyveMDMAdminDashboard-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EFAC8C2531710F6214D41D3C8B2651E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FCAC790B9A5CD07B1B1B7C8584CBC9 /* Pods-FlyveMDMAdminDashboardUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838ABEC1FD53FF4EA878E2DAD40EBF71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B260511F55F945134D2ABAEC82D96E /* Pods-FlyveMDMAdminDashboardTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8AA49643E9A363D59FE4A288ACCB738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E510D1D47DE4A0162C6EDD4FCCCF9E56 /* Pods-FlyveMDMAdminDashboard-iPad-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95AB39B7D53CEF8EAAC22B16030613E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2657E645A435C3EB07218B961524F01 /* GlpiConfig.swift in Sources */,
+				D736D03CB231778FB257DA52467B80BE /* GlpiRequest.swift in Sources */,
+				626E097DB1372AC5ACE2578033BF9E4B /* ItemType.swift in Sources */,
+				1935645CBBC3C68161803346EBC717AB /* Routers.swift in Sources */,
+				8F0E70B70C977359694801808EACF817 /* swift-library-glpi-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53CEAA9362CF0C772E6F5D672D8E0B8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "swift-library-glpi";
+			target = 1B5E995C6DD886286C9EE54EF57081AC /* swift-library-glpi */;
+			targetProxy = BE93EE4ED9DDD6BF3E3C121D0237839F /* PBXContainerItemProxy */;
+		};
+		AD0F16CE31E28D2A54B8A0AD76FE4E84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FlyveMDMAdminDashboard";
+			target = 21308A91646F3E4C33723799FE592D34 /* Pods-FlyveMDMAdminDashboard */;
+			targetProxy = 8151A394EB71F0DBE0D39FA7E210FB79 /* PBXContainerItemProxy */;
+		};
+		EAFB526E1F8873B37E6550990D409CBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FlyveMDMAdminDashboard";
+			target = 21308A91646F3E4C33723799FE592D34 /* Pods-FlyveMDMAdminDashboard */;
+			targetProxy = 84FB4C099859E3AD82E2AC975DA48BEC /* PBXContainerItemProxy */;
+		};
+		F03C758A4CF270A513F40DAA9D9B1CCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "swift-library-glpi";
+			target = 1B5E995C6DD886286C9EE54EF57081AC /* swift-library-glpi */;
+			targetProxy = 84B07A995048FF5D471B6970C46C6050 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		224CC00F977AA503C6BA57691A668721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E62DE7F4B29B5D4F447BE7E6B54ECCB0 /* Pods-FlyveMDMAdminDashboard-iPad.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlyveMDMAdminDashboard-iPad/Pods-FlyveMDMAdminDashboard-iPad-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlyveMDMAdminDashboard-iPad/Pods-FlyveMDMAdminDashboard-iPad.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3A8C95379BC325388D240CC72D291DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5449E48794973B19B21B712AE5219CA2 /* Pods-FlyveMDMAdminDashboard.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlyveMDMAdminDashboard/Pods-FlyveMDMAdminDashboard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlyveMDMAdminDashboard/Pods-FlyveMDMAdminDashboard.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3C5CFB79F43A56600E7351B11806E7DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2EA3E794CB2724867923C6E596DBB53 /* Pods-FlyveMDMAdminDashboard.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlyveMDMAdminDashboard/Pods-FlyveMDMAdminDashboard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlyveMDMAdminDashboard/Pods-FlyveMDMAdminDashboard.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43DD530F50673E81374EF8CAA1C605AC /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6E1A090AA9611034D05272227FCA4C9 /* Pods-FlyveMDMAdminDashboard.beta.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlyveMDMAdminDashboard/Pods-FlyveMDMAdminDashboard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlyveMDMAdminDashboard/Pods-FlyveMDMAdminDashboard.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Beta;
+		};
+		49AA2473D18DEF7E7202F245499710CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F307606458EAE794DD82EF0149EB28 /* Pods-FlyveMDMAdminDashboard-iPad.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlyveMDMAdminDashboard-iPad/Pods-FlyveMDMAdminDashboard-iPad-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlyveMDMAdminDashboard-iPad/Pods-FlyveMDMAdminDashboard-iPad.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		57046A9C993DCF2DBB54FACBDB31F975 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0D01018316DD037080495CE7FE59FC2 /* Pods-FlyveMDMAdminDashboardUITests.beta.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlyveMDMAdminDashboardUITests/Pods-FlyveMDMAdminDashboardUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlyveMDMAdminDashboardUITests/Pods-FlyveMDMAdminDashboardUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Beta;
+		};
+		58600322E75DA06C1253BEB2C06E85DF /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_BETA=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Beta;
+		};
+		5D976FBEAB14A4718BC7844D7C371122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13BB0F90DAABD6C9A216FF5DCB248FD1 /* Pods-FlyveMDMAdminDashboardTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlyveMDMAdminDashboardTests/Pods-FlyveMDMAdminDashboardTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlyveMDMAdminDashboardTests/Pods-FlyveMDMAdminDashboardTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		646F050CADB76A5FB97BA752D3736F24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C347E05F9193F2B16C5344DD8D1E5BA2 /* swift-library-glpi.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/swift-library-glpi/swift-library-glpi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/swift-library-glpi/swift-library-glpi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/swift-library-glpi/swift-library-glpi.modulemap";
+				PRODUCT_MODULE_NAME = swift_library_glpi;
+				PRODUCT_NAME = swift_library_glpi;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A65DD8B4296C71F7785A280EDAC7795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03A594ABD31BD12C7C1829F6A8F6E17C /* Pods-FlyveMDMAdminDashboardUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlyveMDMAdminDashboardUITests/Pods-FlyveMDMAdminDashboardUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlyveMDMAdminDashboardUITests/Pods-FlyveMDMAdminDashboardUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74A80190F6EE6099E873C9FF92732E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7BB914D6740FDC75AB74E5C12A12B933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B60A9E017F4046FC596EFE45A491DBF /* Pods-FlyveMDMAdminDashboardTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlyveMDMAdminDashboardTests/Pods-FlyveMDMAdminDashboardTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlyveMDMAdminDashboardTests/Pods-FlyveMDMAdminDashboardTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CF3E90EFCE9CF7BAB521C5035F84B6B /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C347E05F9193F2B16C5344DD8D1E5BA2 /* swift-library-glpi.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/swift-library-glpi/swift-library-glpi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/swift-library-glpi/swift-library-glpi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/swift-library-glpi/swift-library-glpi.modulemap";
+				PRODUCT_MODULE_NAME = swift_library_glpi;
+				PRODUCT_NAME = swift_library_glpi;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA9F46BF14D74C60FF8153BE2A5F15A6 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28AB6BDC4C6E089A11A705B75196571B /* Pods-FlyveMDMAdminDashboard-iPad.beta.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlyveMDMAdminDashboard-iPad/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlyveMDMAdminDashboard-iPad/Pods-FlyveMDMAdminDashboard-iPad.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Beta;
+		};
+		7EF5FF8C6F933C69913938A370642DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C347E05F9193F2B16C5344DD8D1E5BA2 /* swift-library-glpi.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/swift-library-glpi/swift-library-glpi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/swift-library-glpi/swift-library-glpi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/swift-library-glpi/swift-library-glpi.modulemap";
+				PRODUCT_MODULE_NAME = swift_library_glpi;
+				PRODUCT_NAME = swift_library_glpi;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B533B98885FAF0C0C9EA3CC2FB231517 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F505E6CC8E2AF8A238FE47D794DBFA11 /* Pods-FlyveMDMAdminDashboard-iPad.beta.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlyveMDMAdminDashboard-iPad/Pods-FlyveMDMAdminDashboard-iPad-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlyveMDMAdminDashboard-iPad/Pods-FlyveMDMAdminDashboard-iPad.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Beta;
+		};
+		E22CAAD1A64A2DF3D0511DBBD4F989AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E49AE4DD221E26003EC2C53450C85308 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9BE7CE812C1C29FA43C0BAB522C0003 /* Pods-FlyveMDMAdminDashboardTests.beta.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlyveMDMAdminDashboardTests/Pods-FlyveMDMAdminDashboardTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlyveMDMAdminDashboardTests/Pods-FlyveMDMAdminDashboardTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Beta;
+		};
+		FFCF1E7037042E997D804E31F9119E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 468F90082761185B8A5DEBA9F08C696C /* Pods-FlyveMDMAdminDashboardUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlyveMDMAdminDashboardUITests/Pods-FlyveMDMAdminDashboardUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlyveMDMAdminDashboardUITests/Pods-FlyveMDMAdminDashboardUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58600322E75DA06C1253BEB2C06E85DF /* Beta */,
+				E22CAAD1A64A2DF3D0511DBBD4F989AB /* Debug */,
+				74A80190F6EE6099E873C9FF92732E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2BA51A8F5A60E07EC3494BAD514C5F0 /* Build configuration list for PBXNativeTarget "Pods-FlyveMDMAdminDashboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43DD530F50673E81374EF8CAA1C605AC /* Beta */,
+				3C5CFB79F43A56600E7351B11806E7DC /* Debug */,
+				3A8C95379BC325388D240CC72D291DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C768D8F3EEF9E5BD46965118D23597E5 /* Build configuration list for PBXNativeTarget "Pods-FlyveMDMAdminDashboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57046A9C993DCF2DBB54FACBDB31F975 /* Beta */,
+				FFCF1E7037042E997D804E31F9119E85 /* Debug */,
+				6A65DD8B4296C71F7785A280EDAC7795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7A0753CDF357A8DAA0708C3331102E7 /* Build configuration list for PBXNativeTarget "Pods-FlyveMDMAdminDashboard-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B533B98885FAF0C0C9EA3CC2FB231517 /* Beta */,
+				224CC00F977AA503C6BA57691A668721 /* Debug */,
+				49AA2473D18DEF7E7202F245499710CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D129825544AD625DE87C846FBA408265 /* Build configuration list for PBXNativeTarget "Pods-FlyveMDMAdminDashboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E49AE4DD221E26003EC2C53450C85308 /* Beta */,
+				7BB914D6740FDC75AB74E5C12A12B933 /* Debug */,
+				5D976FBEAB14A4718BC7844D7C371122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0AB7096840344DAF58A497C25931AD9 /* Build configuration list for PBXNativeTarget "swift-library-glpi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF3E90EFCE9CF7BAB521C5035F84B6B /* Beta */,
+				646F050CADB76A5FB97BA752D3736F24 /* Debug */,
+				7EF5FF8C6F933C69913938A370642DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

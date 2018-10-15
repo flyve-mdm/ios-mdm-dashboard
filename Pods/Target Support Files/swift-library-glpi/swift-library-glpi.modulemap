@@ -1,0 +1,6 @@
+framework module swift_library_glpi {
+  umbrella header "swift-library-glpi-umbrella.h"
+
+  export *
+  module * { export * }
+}

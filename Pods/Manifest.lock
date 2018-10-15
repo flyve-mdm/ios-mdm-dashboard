@@ -1,0 +1,16 @@
+PODS:
+  - swift-library-glpi (1.0.0)
+
+DEPENDENCIES:
+  - swift-library-glpi
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - swift-library-glpi
+
+SPEC CHECKSUMS:
+  swift-library-glpi: 0490a262673551566904390fd7a6ace49fd27918
+
+PODFILE CHECKSUM: 594558c03ed3e6f5813cdd7008d99efbc1fab745
+
+COCOAPODS: 1.6.0.beta.1
