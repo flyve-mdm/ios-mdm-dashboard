@@ -20,10 +20,10 @@
 		0A7BB6FE215E6E890074F0EA /* about.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A75316920E5815600FC5ADE /* about.strings */; };
 		0A7BB6FF215E6E890074F0EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A02916D20E4363D00E4DF71 /* Assets.xcassets */; };
 		0A7BB700215E6E890074F0EA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A02919820E43EB100E4DF71 /* Localizable.strings */; };
-		273A5CA93E0453DF683344B6 /* Pods_FlyveMDMAdminDashboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7086FE767A3F988164E2A8C7 /* Pods_FlyveMDMAdminDashboard.framework */; };
-		407ABF2DEC75BA95CA55B776 /* Pods_FlyveMDMAdminDashboardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60DD920FA036742B7C13E91B /* Pods_FlyveMDMAdminDashboardUITests.framework */; };
-		5EC8248DA364F1411B9E083C /* Pods_FlyveMDMAdminDashboard_iPad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CB73F3C95151D0F648EF48 /* Pods_FlyveMDMAdminDashboard_iPad.framework */; };
-		A3B3A3E9B1718344C5418637 /* Pods_FlyveMDMAdminDashboardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD84539040C5F0A983D52731 /* Pods_FlyveMDMAdminDashboardTests.framework */; };
+		2CC4A01C4664E86EBF4C0660 /* Pods_FlyveMDMAdminDashboardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECFA77861AD3210267BBE44 /* Pods_FlyveMDMAdminDashboardUITests.framework */; };
+		8F840AC4F74B5161FABA4E6F /* Pods_FlyveMDMAdminDashboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03598EBC1B80D4FC7FE8E2E2 /* Pods_FlyveMDMAdminDashboard.framework */; };
+		B58BD1371104BDC0F7E05FFA /* Pods_FlyveMDMAdminDashboard_iPad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3A1555E9CED5D17778967E /* Pods_FlyveMDMAdminDashboard_iPad.framework */; };
+		E8A4BD5522058773F17A410A /* Pods_FlyveMDMAdminDashboardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7F54ABD1C0A485BC03636B /* Pods_FlyveMDMAdminDashboardTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07CB73F3C95151D0F648EF48 /* Pods_FlyveMDMAdminDashboard_iPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlyveMDMAdminDashboard_iPad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03598EBC1B80D4FC7FE8E2E2 /* Pods_FlyveMDMAdminDashboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlyveMDMAdminDashboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A02916320E4363D00E4DF71 /* FlyveMDMAdminDashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyveMDMAdminDashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A02916620E4363D00E4DF71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A02916820E4363D00E4DF71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,21 +91,21 @@
 		0AA8644F20E5361B00B2BBBC /* cs-CZ */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "cs-CZ"; path = "cs-CZ.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		0AA8645020E536B900B2BBBC /* es-AR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-AR"; path = "es-AR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		0AA8645120E536E500B2BBBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
-		1C1A6869A70DB56B556D06F5 /* Pods-FlyveMDMAdminDashboard-iPad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboard-iPad.release.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboard-iPad/Pods-FlyveMDMAdminDashboard-iPad.release.xcconfig"; sourceTree = "<group>"; };
-		29BEBD0FB309484F6B49D9D8 /* Pods-FlyveMDMAdminDashboard-iPad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboard-iPad.debug.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboard-iPad/Pods-FlyveMDMAdminDashboard-iPad.debug.xcconfig"; sourceTree = "<group>"; };
-		3B0FB40F58E3B35057CD42C4 /* Pods-FlyveMDMAdminDashboardTests.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboardTests.beta.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboardTests/Pods-FlyveMDMAdminDashboardTests.beta.xcconfig"; sourceTree = "<group>"; };
-		4314045D7564B2D89AA03382 /* Pods-FlyveMDMAdminDashboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboardTests.debug.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboardTests/Pods-FlyveMDMAdminDashboardTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4D5144A278CA6E758624497B /* Pods-FlyveMDMAdminDashboardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboardUITests.debug.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboardUITests/Pods-FlyveMDMAdminDashboardUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		5F65E753DF903F39E74D2278 /* Pods-FlyveMDMAdminDashboardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboardUITests.release.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboardUITests/Pods-FlyveMDMAdminDashboardUITests.release.xcconfig"; sourceTree = "<group>"; };
-		60DD920FA036742B7C13E91B /* Pods_FlyveMDMAdminDashboardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlyveMDMAdminDashboardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F67C0D85AEA0955916C46FD /* Pods-FlyveMDMAdminDashboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboard.debug.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboard/Pods-FlyveMDMAdminDashboard.debug.xcconfig"; sourceTree = "<group>"; };
-		7086FE767A3F988164E2A8C7 /* Pods_FlyveMDMAdminDashboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlyveMDMAdminDashboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		81EC82A66D13F42B560A9D76 /* Pods-FlyveMDMAdminDashboardUITests.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboardUITests.beta.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboardUITests/Pods-FlyveMDMAdminDashboardUITests.beta.xcconfig"; sourceTree = "<group>"; };
-		A11FB729FF4D524A2A8D8019 /* Pods-FlyveMDMAdminDashboard-iPad.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboard-iPad.beta.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboard-iPad/Pods-FlyveMDMAdminDashboard-iPad.beta.xcconfig"; sourceTree = "<group>"; };
-		A7988C1834C8805355BC6AA9 /* Pods-FlyveMDMAdminDashboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboardTests.release.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboardTests/Pods-FlyveMDMAdminDashboardTests.release.xcconfig"; sourceTree = "<group>"; };
-		B21CF9F17B2AAF41ED646BD5 /* Pods-FlyveMDMAdminDashboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboard.release.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboard/Pods-FlyveMDMAdminDashboard.release.xcconfig"; sourceTree = "<group>"; };
-		DD84539040C5F0A983D52731 /* Pods_FlyveMDMAdminDashboardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlyveMDMAdminDashboardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4C5AC90DF1562784E9A9B84 /* Pods-FlyveMDMAdminDashboard.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboard.beta.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboard/Pods-FlyveMDMAdminDashboard.beta.xcconfig"; sourceTree = "<group>"; };
+		0B81D14CFE69DDA100AC22C4 /* Pods-FlyveMDMAdminDashboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboard.debug.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboard/Pods-FlyveMDMAdminDashboard.debug.xcconfig"; sourceTree = "<group>"; };
+		0BD5670003FA1E5E6490D48F /* Pods-FlyveMDMAdminDashboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboard.release.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboard/Pods-FlyveMDMAdminDashboard.release.xcconfig"; sourceTree = "<group>"; };
+		0BDBEFF1B6D2A1EA4D4FD03C /* Pods-FlyveMDMAdminDashboard-iPad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboard-iPad.debug.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboard-iPad/Pods-FlyveMDMAdminDashboard-iPad.debug.xcconfig"; sourceTree = "<group>"; };
+		136CD450D906B99E05C6B696 /* Pods-FlyveMDMAdminDashboard.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboard.beta.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboard/Pods-FlyveMDMAdminDashboard.beta.xcconfig"; sourceTree = "<group>"; };
+		1461FDE375ACE39E64F8E743 /* Pods-FlyveMDMAdminDashboardUITests.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboardUITests.beta.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboardUITests/Pods-FlyveMDMAdminDashboardUITests.beta.xcconfig"; sourceTree = "<group>"; };
+		1D3A1555E9CED5D17778967E /* Pods_FlyveMDMAdminDashboard_iPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlyveMDMAdminDashboard_iPad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3205A29C2D6846B93576D365 /* Pods-FlyveMDMAdminDashboard-iPad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboard-iPad.release.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboard-iPad/Pods-FlyveMDMAdminDashboard-iPad.release.xcconfig"; sourceTree = "<group>"; };
+		50F15E0264BAAF26F4D13B32 /* Pods-FlyveMDMAdminDashboardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboardUITests.debug.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboardUITests/Pods-FlyveMDMAdminDashboardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6ECFA77861AD3210267BBE44 /* Pods_FlyveMDMAdminDashboardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlyveMDMAdminDashboardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70A0CBB5322C7D5399051A0C /* Pods-FlyveMDMAdminDashboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboardTests.debug.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboardTests/Pods-FlyveMDMAdminDashboardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		928C6ECD107C60CF7EB60932 /* Pods-FlyveMDMAdminDashboardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboardUITests.release.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboardUITests/Pods-FlyveMDMAdminDashboardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9A989BDCAC11323498E52B2D /* Pods-FlyveMDMAdminDashboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboardTests.release.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboardTests/Pods-FlyveMDMAdminDashboardTests.release.xcconfig"; sourceTree = "<group>"; };
+		A80A9AC693086A16B124182A /* Pods-FlyveMDMAdminDashboardTests.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboardTests.beta.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboardTests/Pods-FlyveMDMAdminDashboardTests.beta.xcconfig"; sourceTree = "<group>"; };
+		E89A59B71FC26E01DFDB1430 /* Pods-FlyveMDMAdminDashboard-iPad.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboard-iPad.beta.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboard-iPad/Pods-FlyveMDMAdminDashboard-iPad.beta.xcconfig"; sourceTree = "<group>"; };
+		EA7F54ABD1C0A485BC03636B /* Pods_FlyveMDMAdminDashboardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlyveMDMAdminDashboardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				273A5CA93E0453DF683344B6 /* Pods_FlyveMDMAdminDashboard.framework in Frameworks */,
+				8F840AC4F74B5161FABA4E6F /* Pods_FlyveMDMAdminDashboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3B3A3E9B1718344C5418637 /* Pods_FlyveMDMAdminDashboardTests.framework in Frameworks */,
+				E8A4BD5522058773F17A410A /* Pods_FlyveMDMAdminDashboardTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				407ABF2DEC75BA95CA55B776 /* Pods_FlyveMDMAdminDashboardUITests.framework in Frameworks */,
+				2CC4A01C4664E86EBF4C0660 /* Pods_FlyveMDMAdminDashboardUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EC8248DA364F1411B9E083C /* Pods_FlyveMDMAdminDashboard_iPad.framework in Frameworks */,
+				B58BD1371104BDC0F7E05FFA /* Pods_FlyveMDMAdminDashboard_iPad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,8 +152,8 @@
 				0A02917A20E4363D00E4DF71 /* FlyveMDMAdminDashboardTests */,
 				0A02918520E4363D00E4DF71 /* FlyveMDMAdminDashboardUITests */,
 				0A02916420E4363D00E4DF71 /* Products */,
-				C083DB3F4E304E6AEEECC670 /* Pods */,
-				D30C859D898A79899546CAAD /* Frameworks */,
+				D739AB0E9F18C4462886E190 /* Pods */,
+				C9B2EF01CAE5BCE57EC468AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -208,35 +208,35 @@
 			name = "Resources-iPad";
 			sourceTree = "<group>";
 		};
-		C083DB3F4E304E6AEEECC670 /* Pods */ = {
+		C9B2EF01CAE5BCE57EC468AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6F67C0D85AEA0955916C46FD /* Pods-FlyveMDMAdminDashboard.debug.xcconfig */,
-				B21CF9F17B2AAF41ED646BD5 /* Pods-FlyveMDMAdminDashboard.release.xcconfig */,
-				E4C5AC90DF1562784E9A9B84 /* Pods-FlyveMDMAdminDashboard.beta.xcconfig */,
-				29BEBD0FB309484F6B49D9D8 /* Pods-FlyveMDMAdminDashboard-iPad.debug.xcconfig */,
-				1C1A6869A70DB56B556D06F5 /* Pods-FlyveMDMAdminDashboard-iPad.release.xcconfig */,
-				A11FB729FF4D524A2A8D8019 /* Pods-FlyveMDMAdminDashboard-iPad.beta.xcconfig */,
-				4314045D7564B2D89AA03382 /* Pods-FlyveMDMAdminDashboardTests.debug.xcconfig */,
-				A7988C1834C8805355BC6AA9 /* Pods-FlyveMDMAdminDashboardTests.release.xcconfig */,
-				3B0FB40F58E3B35057CD42C4 /* Pods-FlyveMDMAdminDashboardTests.beta.xcconfig */,
-				4D5144A278CA6E758624497B /* Pods-FlyveMDMAdminDashboardUITests.debug.xcconfig */,
-				5F65E753DF903F39E74D2278 /* Pods-FlyveMDMAdminDashboardUITests.release.xcconfig */,
-				81EC82A66D13F42B560A9D76 /* Pods-FlyveMDMAdminDashboardUITests.beta.xcconfig */,
+				03598EBC1B80D4FC7FE8E2E2 /* Pods_FlyveMDMAdminDashboard.framework */,
+				1D3A1555E9CED5D17778967E /* Pods_FlyveMDMAdminDashboard_iPad.framework */,
+				EA7F54ABD1C0A485BC03636B /* Pods_FlyveMDMAdminDashboardTests.framework */,
+				6ECFA77861AD3210267BBE44 /* Pods_FlyveMDMAdminDashboardUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D739AB0E9F18C4462886E190 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B81D14CFE69DDA100AC22C4 /* Pods-FlyveMDMAdminDashboard.debug.xcconfig */,
+				0BD5670003FA1E5E6490D48F /* Pods-FlyveMDMAdminDashboard.release.xcconfig */,
+				136CD450D906B99E05C6B696 /* Pods-FlyveMDMAdminDashboard.beta.xcconfig */,
+				0BDBEFF1B6D2A1EA4D4FD03C /* Pods-FlyveMDMAdminDashboard-iPad.debug.xcconfig */,
+				3205A29C2D6846B93576D365 /* Pods-FlyveMDMAdminDashboard-iPad.release.xcconfig */,
+				E89A59B71FC26E01DFDB1430 /* Pods-FlyveMDMAdminDashboard-iPad.beta.xcconfig */,
+				70A0CBB5322C7D5399051A0C /* Pods-FlyveMDMAdminDashboardTests.debug.xcconfig */,
+				9A989BDCAC11323498E52B2D /* Pods-FlyveMDMAdminDashboardTests.release.xcconfig */,
+				A80A9AC693086A16B124182A /* Pods-FlyveMDMAdminDashboardTests.beta.xcconfig */,
+				50F15E0264BAAF26F4D13B32 /* Pods-FlyveMDMAdminDashboardUITests.debug.xcconfig */,
+				928C6ECD107C60CF7EB60932 /* Pods-FlyveMDMAdminDashboardUITests.release.xcconfig */,
+				1461FDE375ACE39E64F8E743 /* Pods-FlyveMDMAdminDashboardUITests.beta.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		D30C859D898A79899546CAAD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7086FE767A3F988164E2A8C7 /* Pods_FlyveMDMAdminDashboard.framework */,
-				07CB73F3C95151D0F648EF48 /* Pods_FlyveMDMAdminDashboard_iPad.framework */,
-				DD84539040C5F0A983D52731 /* Pods_FlyveMDMAdminDashboardTests.framework */,
-				60DD920FA036742B7C13E91B /* Pods_FlyveMDMAdminDashboardUITests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,11 +246,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A02918B20E4363D00E4DF71 /* Build configuration list for PBXNativeTarget "FlyveMDMAdminDashboard" */;
 			buildPhases = (
-				CA06472D84647A062D2C9C93 /* [CP] Check Pods Manifest.lock */,
+				69A0D1CE06E150E33719CBA8 /* [CP] Check Pods Manifest.lock */,
 				0A02915F20E4363D00E4DF71 /* Sources */,
 				0A02916020E4363D00E4DF71 /* Frameworks */,
 				0A02916120E4363D00E4DF71 /* Resources */,
-				2333FF435ABC55E76AE92055 /* [CP] Embed Pods Frameworks */,
+				57BB1D153D81C82D494AF05F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,7 +265,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A02918E20E4363D00E4DF71 /* Build configuration list for PBXNativeTarget "FlyveMDMAdminDashboardTests" */;
 			buildPhases = (
-				B7E4DD27FE46C03AA6455423 /* [CP] Check Pods Manifest.lock */,
+				9C83B8F200D3BE42B0427A20 /* [CP] Check Pods Manifest.lock */,
 				0A02917320E4363D00E4DF71 /* Sources */,
 				0A02917420E4363D00E4DF71 /* Frameworks */,
 				0A02917520E4363D00E4DF71 /* Resources */,
@@ -284,7 +284,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A02919120E4363D00E4DF71 /* Build configuration list for PBXNativeTarget "FlyveMDMAdminDashboardUITests" */;
 			buildPhases = (
-				4375959CD7FEB68544FD3982 /* [CP] Check Pods Manifest.lock */,
+				366B8E2A535FFCA23A825687 /* [CP] Check Pods Manifest.lock */,
 				0A02917E20E4363D00E4DF71 /* Sources */,
 				0A02917F20E4363D00E4DF71 /* Frameworks */,
 				0A02918020E4363D00E4DF71 /* Resources */,
@@ -304,11 +304,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A7BB701215E6E890074F0EA /* Build configuration list for PBXNativeTarget "FlyveMDMAdminDashboard-iPad" */;
 			buildPhases = (
-				B892B24C6522411B190982FF /* [CP] Check Pods Manifest.lock */,
+				73787012BC7D3267B07F1593 /* [CP] Check Pods Manifest.lock */,
 				0A7BB6F9215E6E890074F0EA /* Sources */,
 				0A7BB6FC215E6E890074F0EA /* Frameworks */,
 				0A7BB6FD215E6E890074F0EA /* Resources */,
-				4EDDF8D206B58FE54019792B /* [CP] Embed Pods Frameworks */,
+				216449609A40938FD44F2A9C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -432,51 +432,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2333FF435ABC55E76AE92055 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlyveMDMAdminDashboard/Pods-FlyveMDMAdminDashboard-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/swift-library-glpi/swift_library_glpi.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/swift_library_glpi.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlyveMDMAdminDashboard/Pods-FlyveMDMAdminDashboard-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4375959CD7FEB68544FD3982 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FlyveMDMAdminDashboardUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4EDDF8D206B58FE54019792B /* [CP] Embed Pods Frameworks */ = {
+		216449609A40938FD44F2A9C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -498,7 +454,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlyveMDMAdminDashboard-iPad/Pods-FlyveMDMAdminDashboard-iPad-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B7E4DD27FE46C03AA6455423 /* [CP] Check Pods Manifest.lock */ = {
+		366B8E2A535FFCA23A825687 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -513,14 +469,58 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FlyveMDMAdminDashboardTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-FlyveMDMAdminDashboardUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B892B24C6522411B190982FF /* [CP] Check Pods Manifest.lock */ = {
+		57BB1D153D81C82D494AF05F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlyveMDMAdminDashboard/Pods-FlyveMDMAdminDashboard-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/swift-library-glpi/swift_library_glpi.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/swift_library_glpi.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlyveMDMAdminDashboard/Pods-FlyveMDMAdminDashboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69A0D1CE06E150E33719CBA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlyveMDMAdminDashboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73787012BC7D3267B07F1593 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -542,7 +542,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CA06472D84647A062D2C9C93 /* [CP] Check Pods Manifest.lock */ = {
+		9C83B8F200D3BE42B0427A20 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -557,7 +557,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FlyveMDMAdminDashboard-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-FlyveMDMAdminDashboardTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -772,7 +772,7 @@
 		};
 		0A02918C20E4363D00E4DF71 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F67C0D85AEA0955916C46FD /* Pods-FlyveMDMAdminDashboard.debug.xcconfig */;
+			baseConfigurationReference = 0B81D14CFE69DDA100AC22C4 /* Pods-FlyveMDMAdminDashboard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -794,7 +794,7 @@
 		};
 		0A02918D20E4363D00E4DF71 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B21CF9F17B2AAF41ED646BD5 /* Pods-FlyveMDMAdminDashboard.release.xcconfig */;
+			baseConfigurationReference = 0BD5670003FA1E5E6490D48F /* Pods-FlyveMDMAdminDashboard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -816,7 +816,7 @@
 		};
 		0A02918F20E4363D00E4DF71 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4314045D7564B2D89AA03382 /* Pods-FlyveMDMAdminDashboardTests.debug.xcconfig */;
+			baseConfigurationReference = 70A0CBB5322C7D5399051A0C /* Pods-FlyveMDMAdminDashboardTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -836,7 +836,7 @@
 		};
 		0A02919020E4363D00E4DF71 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7988C1834C8805355BC6AA9 /* Pods-FlyveMDMAdminDashboardTests.release.xcconfig */;
+			baseConfigurationReference = 9A989BDCAC11323498E52B2D /* Pods-FlyveMDMAdminDashboardTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -856,7 +856,7 @@
 		};
 		0A02919220E4363D00E4DF71 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D5144A278CA6E758624497B /* Pods-FlyveMDMAdminDashboardUITests.debug.xcconfig */;
+			baseConfigurationReference = 50F15E0264BAAF26F4D13B32 /* Pods-FlyveMDMAdminDashboardUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -875,7 +875,7 @@
 		};
 		0A02919320E4363D00E4DF71 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F65E753DF903F39E74D2278 /* Pods-FlyveMDMAdminDashboardUITests.release.xcconfig */;
+			baseConfigurationReference = 928C6ECD107C60CF7EB60932 /* Pods-FlyveMDMAdminDashboardUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -947,7 +947,7 @@
 		};
 		0A75316C20E583C600FC5ADE /* Beta */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4C5AC90DF1562784E9A9B84 /* Pods-FlyveMDMAdminDashboard.beta.xcconfig */;
+			baseConfigurationReference = 136CD450D906B99E05C6B696 /* Pods-FlyveMDMAdminDashboard.beta.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -969,7 +969,7 @@
 		};
 		0A75316D20E583C600FC5ADE /* Beta */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B0FB40F58E3B35057CD42C4 /* Pods-FlyveMDMAdminDashboardTests.beta.xcconfig */;
+			baseConfigurationReference = A80A9AC693086A16B124182A /* Pods-FlyveMDMAdminDashboardTests.beta.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -989,7 +989,7 @@
 		};
 		0A75316E20E583C600FC5ADE /* Beta */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81EC82A66D13F42B560A9D76 /* Pods-FlyveMDMAdminDashboardUITests.beta.xcconfig */;
+			baseConfigurationReference = 1461FDE375ACE39E64F8E743 /* Pods-FlyveMDMAdminDashboardUITests.beta.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1008,7 +1008,7 @@
 		};
 		0A7BB702215E6E890074F0EA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29BEBD0FB309484F6B49D9D8 /* Pods-FlyveMDMAdminDashboard-iPad.debug.xcconfig */;
+			baseConfigurationReference = 0BDBEFF1B6D2A1EA4D4FD03C /* Pods-FlyveMDMAdminDashboard-iPad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1030,7 +1030,7 @@
 		};
 		0A7BB703215E6E890074F0EA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C1A6869A70DB56B556D06F5 /* Pods-FlyveMDMAdminDashboard-iPad.release.xcconfig */;
+			baseConfigurationReference = 3205A29C2D6846B93576D365 /* Pods-FlyveMDMAdminDashboard-iPad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1052,7 +1052,7 @@
 		};
 		0A7BB704215E6E890074F0EA /* Beta */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A11FB729FF4D524A2A8D8019 /* Pods-FlyveMDMAdminDashboard-iPad.beta.xcconfig */;
+			baseConfigurationReference = E89A59B71FC26E01DFDB1430 /* Pods-FlyveMDMAdminDashboard-iPad.beta.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
