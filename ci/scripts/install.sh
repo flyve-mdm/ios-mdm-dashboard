@@ -33,6 +33,8 @@ brew install ruby
 gem update --system
 # Clean Gem
 gem cleanup
+# Update cocoapods
+gem update cocoapods --pre
 # Install jazzy for generate documentation
 gem install jazzy
 # Install jq for json parse
