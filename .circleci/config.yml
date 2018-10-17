@@ -143,6 +143,8 @@ jobs:
     <<: *container_config
     steps:
       - checkout
+      - *bundler_config
+      - *install
       - *build_app
 
   test:
