@@ -15,11 +15,13 @@ target 'FlyveMDMAdminDashboard' do
   target 'FlyveMDMAdminDashboardTests' do
     inherit! :search_paths
     # Pods for testing
+    glpi_pods
   end
 
   target 'FlyveMDMAdminDashboardUITests' do
     inherit! :search_paths
     # Pods for testing
+    glpi_pods
   end
 
 end
