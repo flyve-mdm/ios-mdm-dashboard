@@ -29,6 +29,8 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
@@ -36,6 +38,15 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>FabExMDL2.ttf</string>
+		<string>segoeui.ttf</string>
+		<string>segoeuib.ttf</string>
+		<string>segoeuil.ttf</string>
+		<string>segoeuisl.ttf</string>
+		<string>seguisb.ttf</string>
 	</array>
 </dict>
 </plist>

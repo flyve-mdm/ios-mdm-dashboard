@@ -13,6 +13,13 @@
 		0A02917C20E4363D00E4DF71 /* FlyveMDMAdminDashboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02917B20E4363D00E4DF71 /* FlyveMDMAdminDashboardTests.swift */; };
 		0A02918720E4363D00E4DF71 /* FlyveMDMAdminDashboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02918620E4363D00E4DF71 /* FlyveMDMAdminDashboardUITests.swift */; };
 		0A02919620E43EB100E4DF71 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A02919820E43EB100E4DF71 /* Localizable.strings */; };
+		0A3132BE2188FC0600661C82 /* FabExMDL2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A3132BD2188FC0600661C82 /* FabExMDL2.ttf */; };
+		0A3132BF2188FC1B00661C82 /* FabExMDL2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A3132BD2188FC0600661C82 /* FabExMDL2.ttf */; };
+		0A3132C521890A9D00661C82 /* segoeuib.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A3132C021890A9D00661C82 /* segoeuib.ttf */; };
+		0A3132C621890A9D00661C82 /* segoeuil.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A3132C121890A9D00661C82 /* segoeuil.ttf */; };
+		0A3132C721890A9D00661C82 /* segoeui.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A3132C221890A9D00661C82 /* segoeui.ttf */; };
+		0A3132C821890A9D00661C82 /* segoeuisl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A3132C321890A9D00661C82 /* segoeuisl.ttf */; };
+		0A3132C921890A9D00661C82 /* seguisb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A3132C421890A9D00661C82 /* seguisb.ttf */; };
 		0A75316820E5799000FC5ADE /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A75316720E5799000FC5ADE /* SnapshotHelper.swift */; };
 		0A75316A20E5815600FC5ADE /* about.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A75316920E5815600FC5ADE /* about.strings */; };
 		0A7BB6FA215E6E890074F0EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02916820E4363D00E4DF71 /* ViewController.swift */; };
@@ -68,6 +75,12 @@
 		0A02919A20E43EEA00E4DF71 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0A02919B20E43F0100E4DF71 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0A02919D20E43F4E00E4DF71 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		0A3132BD2188FC0600661C82 /* FabExMDL2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FabExMDL2.ttf; path = fonts/FabExMDL2.ttf; sourceTree = "<group>"; };
+		0A3132C021890A9D00661C82 /* segoeuib.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = segoeuib.ttf; path = fonts/segoeuib.ttf; sourceTree = "<group>"; };
+		0A3132C121890A9D00661C82 /* segoeuil.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = segoeuil.ttf; path = fonts/segoeuil.ttf; sourceTree = "<group>"; };
+		0A3132C221890A9D00661C82 /* segoeui.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = segoeui.ttf; path = fonts/segoeui.ttf; sourceTree = "<group>"; };
+		0A3132C321890A9D00661C82 /* segoeuisl.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = segoeuisl.ttf; path = fonts/segoeuisl.ttf; sourceTree = "<group>"; };
+		0A3132C421890A9D00661C82 /* seguisb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = seguisb.ttf; path = fonts/seguisb.ttf; sourceTree = "<group>"; };
 		0A75316720E5799000FC5ADE /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
 		0A75316920E5815600FC5ADE /* about.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = about.strings; sourceTree = "<group>"; };
 		0A7BB705215E6E890074F0EA /* FlyveMDMAdminDashboard-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FlyveMDMAdminDashboard-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,6 +160,7 @@
 		0A02915A20E4363D00E4DF71 = {
 			isa = PBXGroup;
 			children = (
+				0A3132BC2188FBED00661C82 /* fonts */,
 				0A7BB706215E6E890074F0EA /* Resources-iPad */,
 				0A02916520E4363D00E4DF71 /* FlyveMDMAdminDashboard */,
 				0A02917A20E4363D00E4DF71 /* FlyveMDMAdminDashboardTests */,
@@ -200,6 +214,19 @@
 			path = FlyveMDMAdminDashboardUITests;
 			sourceTree = "<group>";
 		};
+		0A3132BC2188FBED00661C82 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0A3132C221890A9D00661C82 /* segoeui.ttf */,
+				0A3132C021890A9D00661C82 /* segoeuib.ttf */,
+				0A3132C121890A9D00661C82 /* segoeuil.ttf */,
+				0A3132C321890A9D00661C82 /* segoeuisl.ttf */,
+				0A3132C421890A9D00661C82 /* seguisb.ttf */,
+				0A3132BD2188FC0600661C82 /* FabExMDL2.ttf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
 		0A7BB706215E6E890074F0EA /* Resources-iPad */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,7 +251,6 @@
 				39CE9A314ADA3BDD38AF2EF9 /* Pods-FlyveMDMAdminDashboardUITests.release.xcconfig */,
 				9452664BBFE152422303B27B /* Pods-FlyveMDMAdminDashboardUITests.beta.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -402,7 +428,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A75316A20E5815600FC5ADE /* about.strings in Resources */,
+				0A3132C821890A9D00661C82 /* segoeuisl.ttf in Resources */,
 				0A02916E20E4363D00E4DF71 /* Assets.xcassets in Resources */,
+				0A3132C721890A9D00661C82 /* segoeui.ttf in Resources */,
+				0A3132C921890A9D00661C82 /* seguisb.ttf in Resources */,
+				0A3132C521890A9D00661C82 /* segoeuib.ttf in Resources */,
+				0A3132C621890A9D00661C82 /* segoeuil.ttf in Resources */,
+				0A3132BE2188FC0600661C82 /* FabExMDL2.ttf in Resources */,
 				0A02919620E43EB100E4DF71 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +459,7 @@
 			files = (
 				0A7BB6FE215E6E890074F0EA /* about.strings in Resources */,
 				0A7BB6FF215E6E890074F0EA /* Assets.xcassets in Resources */,
+				0A3132BF2188FC1B00661C82 /* FabExMDL2.ttf in Resources */,
 				0A7BB700215E6E890074F0EA /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
