@@ -72,7 +72,21 @@
     },
     {
       "file": "/Users/distiller/project/FlyveMDMAdminDashboard/ViewController.swift",
-      "line": 39,
+      "line": 38,
+      "symbol": "ViewController.setupView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/FlyveMDMAdminDashboard/ViewController.swift",
+      "line": 64,
+      "symbol": "ViewController.openMenu()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/distiller/project/FlyveMDMAdminDashboard/ViewController.swift",
+      "line": 68,
       "symbol": "ViewController.didReceiveMemoryWarning()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
