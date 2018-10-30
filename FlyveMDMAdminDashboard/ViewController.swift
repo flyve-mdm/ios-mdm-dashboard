@@ -32,8 +32,37 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        setupView()
+    }
+    
+    func setupView() {
+
+        let menuButton = UIBarButtonItem()
+        
+        let attributes = [
+            NSAttributedString.Key.font : UIFont(name: "Fabric External MDL2 Assets", size: 17),
+        ]
+        
+        let attributesTitle = [
+            NSAttributedString.Key.foregroundColor: UIColor.red,
+            NSAttributedString.Key.font: UIFont(name: "Segoe UI", size: 17)!
+        ]
+        
+        menuButton.setTitleTextAttributes(attributes as [NSAttributedString.Key : Any], for: .normal)
+        menuButton.setTitleTextAttributes(attributes as [NSAttributedString.Key : Any], for: .highlighted)
+        menuButton.title = "\u{e700}"
+        menuButton.target = self
+        menuButton.action = #selector(self.openMenu)
+        
         view.backgroundColor = .white
+        UINavigationBar.appearance().titleTextAttributes = attributesTitle
         navigationItem.title = NSLocalizedString("title_admin", comment: "")
+        navigationItem.leftBarButtonItem = menuButton
+
+    }
+    
+    @objc func openMenu() {
+        print("open menu")
     }
 
     override func didReceiveMemoryWarning() {
