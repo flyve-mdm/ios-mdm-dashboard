@@ -27,7 +27,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
+    
+    var delegate: mainViewControllerDelegate?
 
     override func viewDidLoad() {
         super.viewDidLoad()
