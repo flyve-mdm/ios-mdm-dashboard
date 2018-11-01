@@ -29,7 +29,10 @@ import UIKit
 
 class MainViewController: UIViewController {
     
-    var delegate: mainViewControllerDelegate?
+    var imageView: UIImageView!
+    var titleLabel: UILabel!
+    
+    var delegate: MainViewControllerDelegate?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -67,11 +70,20 @@ class MainViewController: UIViewController {
         print("open menu")
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    // MARK: Button actions
+    func menuTapped(_ sender: Any) {
+        delegate?.toggleMenuPanel?()
     }
+}
 
-
+// MARK: - SidePanelViewControllerDelegate
+extension MainViewController: SidePanelViewControllerDelegate {
+    
+    func didSelectMenuItem(_ menuItem: AnyObject) {
+        imageView.image = menuItem.image
+        titleLabel.text = menuItem.title
+        
+        delegate?.collapseSidePanels?()
+    }
 }
 

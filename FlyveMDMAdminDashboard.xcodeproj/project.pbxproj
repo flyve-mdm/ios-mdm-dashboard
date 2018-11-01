@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A02916720E4363D00E4DF71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02916620E4363D00E4DF71 /* AppDelegate.swift */; };
-		0A02916920E4363D00E4DF71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02916820E4363D00E4DF71 /* ViewController.swift */; };
+		0A02916920E4363D00E4DF71 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02916820E4363D00E4DF71 /* MainViewController.swift */; };
 		0A02916E20E4363D00E4DF71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A02916D20E4363D00E4DF71 /* Assets.xcassets */; };
 		0A02917C20E4363D00E4DF71 /* FlyveMDMAdminDashboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02917B20E4363D00E4DF71 /* FlyveMDMAdminDashboardTests.swift */; };
 		0A02918720E4363D00E4DF71 /* FlyveMDMAdminDashboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02918620E4363D00E4DF71 /* FlyveMDMAdminDashboardUITests.swift */; };
@@ -20,9 +20,15 @@
 		0A3132C721890A9D00661C82 /* segoeui.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A3132C221890A9D00661C82 /* segoeui.ttf */; };
 		0A3132C821890A9D00661C82 /* segoeuisl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A3132C321890A9D00661C82 /* segoeuisl.ttf */; };
 		0A3132C921890A9D00661C82 /* seguisb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A3132C421890A9D00661C82 /* seguisb.ttf */; };
+		0A3132CB2189F15600661C82 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3132CA2189F15600661C82 /* ContainerViewController.swift */; };
+		0A3132CD2189F3D800661C82 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3132CC2189F3D800661C82 /* MenuViewController.swift */; };
+		0A3132CF2189F81900661C82 /* MainViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3132CE2189F81900661C82 /* MainViewControllerDelegate.swift */; };
+		0A3132D12189FAA800661C82 /* SidePanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3132D02189FAA800661C82 /* SidePanelViewController.swift */; };
+		0A3132D32189FAD800661C82 /* SidePanelViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3132D22189FAD800661C82 /* SidePanelViewControllerDelegate.swift */; };
+		0A3132D5218A4B1A00661C82 /* MenuItemsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3132D4218A4B1A00661C82 /* MenuItemsCell.swift */; };
 		0A75316820E5799000FC5ADE /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A75316720E5799000FC5ADE /* SnapshotHelper.swift */; };
 		0A75316A20E5815600FC5ADE /* about.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A75316920E5815600FC5ADE /* about.strings */; };
-		0A7BB6FA215E6E890074F0EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02916820E4363D00E4DF71 /* ViewController.swift */; };
+		0A7BB6FA215E6E890074F0EA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02916820E4363D00E4DF71 /* MainViewController.swift */; };
 		0A7BB6FB215E6E890074F0EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02916620E4363D00E4DF71 /* AppDelegate.swift */; };
 		0A7BB6FE215E6E890074F0EA /* about.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A75316920E5815600FC5ADE /* about.strings */; };
 		0A7BB6FF215E6E890074F0EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A02916D20E4363D00E4DF71 /* Assets.xcassets */; };
@@ -62,7 +68,7 @@
 		044460C1BBDB4D1F7C8D88D4 /* Pods-FlyveMDMAdminDashboardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyveMDMAdminDashboardUITests.debug.xcconfig"; path = "Target Support Files/Pods-FlyveMDMAdminDashboardUITests/Pods-FlyveMDMAdminDashboardUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		0A02916320E4363D00E4DF71 /* FlyveMDMAdminDashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyveMDMAdminDashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A02916620E4363D00E4DF71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0A02916820E4363D00E4DF71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A02916820E4363D00E4DF71 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0A02916D20E4363D00E4DF71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A02917220E4363D00E4DF71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A02917720E4363D00E4DF71 /* FlyveMDMAdminDashboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyveMDMAdminDashboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +87,12 @@
 		0A3132C221890A9D00661C82 /* segoeui.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = segoeui.ttf; path = fonts/segoeui.ttf; sourceTree = "<group>"; };
 		0A3132C321890A9D00661C82 /* segoeuisl.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = segoeuisl.ttf; path = fonts/segoeuisl.ttf; sourceTree = "<group>"; };
 		0A3132C421890A9D00661C82 /* seguisb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = seguisb.ttf; path = fonts/seguisb.ttf; sourceTree = "<group>"; };
+		0A3132CA2189F15600661C82 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		0A3132CC2189F3D800661C82 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		0A3132CE2189F81900661C82 /* MainViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerDelegate.swift; sourceTree = "<group>"; };
+		0A3132D02189FAA800661C82 /* SidePanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidePanelViewController.swift; sourceTree = "<group>"; };
+		0A3132D22189FAD800661C82 /* SidePanelViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidePanelViewControllerDelegate.swift; sourceTree = "<group>"; };
+		0A3132D4218A4B1A00661C82 /* MenuItemsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemsCell.swift; sourceTree = "<group>"; };
 		0A75316720E5799000FC5ADE /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
 		0A75316920E5815600FC5ADE /* about.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = about.strings; sourceTree = "<group>"; };
 		0A7BB705215E6E890074F0EA /* FlyveMDMAdminDashboard-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FlyveMDMAdminDashboard-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -186,7 +198,13 @@
 			isa = PBXGroup;
 			children = (
 				0A02916620E4363D00E4DF71 /* AppDelegate.swift */,
-				0A02916820E4363D00E4DF71 /* ViewController.swift */,
+				0A3132CA2189F15600661C82 /* ContainerViewController.swift */,
+				0A3132CC2189F3D800661C82 /* MenuViewController.swift */,
+				0A3132CE2189F81900661C82 /* MainViewControllerDelegate.swift */,
+				0A02916820E4363D00E4DF71 /* MainViewController.swift */,
+				0A3132D02189FAA800661C82 /* SidePanelViewController.swift */,
+				0A3132D22189FAD800661C82 /* SidePanelViewControllerDelegate.swift */,
+				0A3132D4218A4B1A00661C82 /* MenuItemsCell.swift */,
 				0A02916D20E4363D00E4DF71 /* Assets.xcassets */,
 				0A02917220E4363D00E4DF71 /* Info.plist */,
 				0A02919820E43EB100E4DF71 /* Localizable.strings */,
@@ -650,8 +668,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A02916920E4363D00E4DF71 /* ViewController.swift in Sources */,
+				0A3132D12189FAA800661C82 /* SidePanelViewController.swift in Sources */,
+				0A3132CB2189F15600661C82 /* ContainerViewController.swift in Sources */,
+				0A02916920E4363D00E4DF71 /* MainViewController.swift in Sources */,
 				0A02916720E4363D00E4DF71 /* AppDelegate.swift in Sources */,
+				0A3132D32189FAD800661C82 /* SidePanelViewControllerDelegate.swift in Sources */,
+				0A3132D5218A4B1A00661C82 /* MenuItemsCell.swift in Sources */,
+				0A3132CF2189F81900661C82 /* MainViewControllerDelegate.swift in Sources */,
+				0A3132CD2189F3D800661C82 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -676,7 +700,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A7BB6FA215E6E890074F0EA /* ViewController.swift in Sources */,
+				0A7BB6FA215E6E890074F0EA /* MainViewController.swift in Sources */,
 				0A7BB6FB215E6E890074F0EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
