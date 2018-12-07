@@ -1,10 +1,8 @@
 ---
-layout: post
-howtos: true
+layout: howtos
 published: true
 title: Installation
 permalink: how-tos/installation
-description: Get it now
 category: user
 ---
 

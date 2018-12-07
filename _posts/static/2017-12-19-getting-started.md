@@ -1,15 +1,11 @@
 ---
-layout: post
-howtos: true
+layout: howtos
 published: true
 title: Getting Started
 permalink: how-tos/getting-started
-description: Welcome to Flyve MDM
 category: user
 date: 2017-12-17
 ---
-
-# Dashboard
 
 The management of your mobile fleet is through the Flyve MDM Dashboard which connects to the Agents on the devices of your fleet.
 

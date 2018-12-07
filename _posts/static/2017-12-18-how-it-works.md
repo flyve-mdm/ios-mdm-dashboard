@@ -1,10 +1,8 @@
 ---
-layout: post
-howtos: true
+layout: howtos
 published: true
 title: How it works
 permalink: how-tos/how-it-works
-description: A brief introduction
 category: user
 ---
 
